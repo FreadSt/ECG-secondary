@@ -1,0 +1,492 @@
+.app_dev-container{
+    display: flex;
+    background: url("../../../assets/sixthpage-images/header-img/header_webApp-BG.png")center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 780px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-self: center;
+    .app_dev-text{
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        flex-direction: column;
+        align-self: center;
+        width: 100%;
+        .app_dev-title{
+            width: 1040px;
+            height: 160px;
+        }
+        .mobile-webApp{
+            display: none;
+        }
+        p{
+            align-self: center;
+            font-family: "AndersonGroteskBlack";
+            color: #F5F2EA;
+            width: 740px;
+            margin: 20px;
+            font-size: 18px;
+        }
+        .header-btn{
+            margin-top: 15px;
+            button{
+                cursor: pointer;
+                display: flex;
+                padding: 16px;
+                width: 255px;
+                align-items: center;
+                justify-content: space-between;
+                height: 55px;
+                background: #F5F2EA;
+                border: 2px solid #393B3D;
+                border-radius: 10px;
+                img{
+                    display: flex;
+                    width: 23px;
+                    height: 23px;
+                }
+                span{
+                    font-family: 'ArchivoBold';
+                    font-size: 18px;
+                    color: #393B3D;
+                }
+            }
+            button:hover{
+                box-shadow: -2px 2px 0px #393B3D;
+                transform: scale(1.1);
+                transition: .25s;
+            }
+        }
+        .form-wrapper{
+            align-self: center;
+            position: fixed;
+            align-items: center;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            opacity: 1.3;
+            background-color: rgba(0,0,0,0.75);
+            z-index: 9999;
+            .brand-footer-form{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                align-self: center;
+                z-index: 9999;
+                margin-top: 3%;
+                .input-fields{
+                    z-index: 9999;
+                    padding-bottom: 0px;
+                    border: 2px solid #393B3D;
+                    box-shadow: -2px 2px 0px #393B3D;
+                    border-radius: 16px;
+                    display: flex;
+                    flex-direction: column;
+                    background-color: #F5F2EA;
+                    width: 400px;
+                    height: 550px;
+                    justify-content: center;
+                    margin: 2%;
+                    .close-btn{
+                        margin-right: 20px;
+                        width: 35px;
+                        height: 35px;
+                        align-self: flex-end;
+                        cursor: pointer;
+                    }
+                    .input-title{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        margin-top: 0;
+                        align-items: center;
+                        h1{
+                            font-family: "AndersongroteskBlack";
+                            font-size: 42px;
+                            margin: 0px 0px 10px ;
+                            text-shadow:
+                                -2px -2px #393B3D,
+                                0  -2px#393B3D,
+                                2px -2px #393B3D,
+                                2px  0 #393B3D,
+                                2px  2px #393B3D,
+                                0  2px #393B3D,
+                                -2px  2px #393B3D,
+                                -2px  0  #393B3D,
+                                -4px  4px  #393B3D;                          
+                            color: #FFCC4D;
+                            font-size: 28px;
+                            letter-spacing: 2px;
+                        }
+                        h3{
+                        font-size: 14px;
+                        color: #393B3D;
+                        font-family: "AndersongroteskBlack";
+                        width: 195px;
+                        margin: 0px 0px 10px;
+                        letter-spacing: 1px;
+                       }
+                    }
+                    .brandInput{
+                        display: flex;
+                        flex-direction: column;
+                        text-align: left;
+                        align-self: center;
+                        margin: 5px 0;
+                        width: 320px;
+                        label{
+                            align-self: flex-start;
+                            margin: 5px 0 0;
+                            font-family: "AndersonGroteskBold";
+                        }
+                        input{
+                            align-self: center;
+                            width: 312px;
+                            height: 35px;
+                            background: #F5F2EA;
+                            border: 2px solid #393B3D;
+                            border-radius: 10px;
+                            text-indent: 20px;
+                        }::placeholder{
+                            font-size: 14px;
+                            font-family: "AndersonGrotesk";
+
+                        }
+                        span{
+                            align-self: flex-end;
+                            font-size: 12px;
+                            color: #FF6F69;
+                            font-family: "AndersonGrotesk";
+                        }
+    
+                    }
+                    
+                        .footerM-btn{
+                            align-self: center;
+                            cursor: pointer;
+                            display: flex;
+                            padding: 16px 16px 16px 24px;
+                            width: 320px;
+                            align-items: center;
+                            justify-content: space-between;
+                            height: 55px;
+                            background: #F5F2EA;
+                            border: 2px solid #393B3D;
+                            border-radius: 10px;
+                            margin: 10px 0 0;
+                            img{
+                                width: 23px;
+                                height: 23px;
+                            }
+                            span{
+                                font-family: 'ArchivoBold';
+                                font-size: 18px;
+                                color: #393B3D;
+                            }
+                            
+                        }
+                        .footerM-btn-disabled{
+                            align-self: center;
+                            cursor: pointer;
+                            display: flex;
+                            padding: 16px 16px 16px 24px;
+                            width: 320px;
+                            align-items: center;
+                            justify-content: space-between;
+                            height: 55px;
+                            background: #F5F2EA;
+                            border: 2px solid #6d6e6e;
+                            border-radius: 10px;
+                            margin: 10px 0 0;
+                            img{
+                                width: 23px;
+                                height: 23px;
+                                filter: contrast(0.5);
+                            }
+                            span{
+                                font-family: 'ArchivoBold';
+                                font-size: 18px;
+                                color: #87898a;
+                            }
+                        }
+                    
+                }   
+                .succsess{
+                    margin: 10% 0;
+                    width: 400px;
+                    height: 280px;
+                    align-self: center;
+                    background-color: #F5F2EA;
+                    text-align: center;
+                    align-items: center;
+                    display: flex;
+                    flex-direction: column;
+                    border-radius: 16px;
+                    box-shadow: -2px 2px 0px #393B3D;
+                    justify-content: center;
+                    h1{
+                        font-family: "AndersongroteskBlack";
+                        font-size: 42px;
+                        margin: 0px 0px 10px ;
+                        text-shadow:
+                            -2px -2px #393B3D,
+                            0  -2px#393B3D,
+                            2px -2px #393B3D,
+                            2px  0 #393B3D,
+                            2px  2px #393B3D,
+                            0  2px #393B3D,
+                            -2px  2px #393B3D,
+                            -2px  0  #393B3D,
+                            -4px  4px  #393B3D;                          
+                        color: #FFCC4D;
+                        font-size: 28px;
+                        letter-spacing: 2px;
+                    }
+                   .suptitle-succsess{
+                        color: #393B3D;
+                        font-size: 18px;
+                        width: 300px;
+                    }
+                    button{
+                        cursor: pointer;
+                        margin: 20px 0 0;
+                        border-radius: 10px;
+                        width: 70px;
+                        height: 55px;
+                        background: #5D9040;
+                        border: 2px solid #393B3D;
+                        box-shadow: -2px 2px 0px #393B3D;
+                        span{
+                            font-family: "ArchivoBold";
+                            color: #F5F2EA;
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }      
+    }
+    .dev-mobile{
+        display: none;
+    }        
+}
+
+@media(max-width:430px) {
+    .app_dev-container{
+        background: url("../../../assets/sixthpage-images/header-img/mobileBG.png")center no-repeat;
+        background-size: cover;
+        height: 670px;
+        width: 100%;
+        max-width: 430px;
+        display: flex;
+        justify-content: center;
+        .app_dev-text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .mobile-webApp{
+                display: flex;
+                width: 360px;
+                height: 160px;
+            }
+            p{
+                width: 340px;
+                margin: 20px 0;
+                font-size: 12px;
+                align-self: center;
+                font-family: "AndersonGroteskBlack";
+                color: #F5F2EA;
+            }
+            .app_dev-title{
+                display: none;
+            }   
+        }
+        .header-btn{
+            margin-top: 15px;
+            button{
+                cursor: pointer;
+                display: flex;
+                padding: 10px;
+                width: 205px;
+                align-items: center;
+                justify-content: space-between;
+                height: 45px;
+                background: #F5F2EA;
+                border: 2px solid #393B3D;
+                border-radius: 10px;
+                box-shadow: -2px 2px 0px #393B3D;
+                img{
+                    display: flex;
+                    width: 23px;
+                    height: 23px;
+                }
+                span{
+                    font-family: 'ArchivoBold';
+                    font-size: 14px;
+                }
+            }
+        }
+        .form-wrapper{
+            align-self: center;
+            position: fixed;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            opacity: 1.3;
+            background-color: rgba(0,0,0,0.75);
+            z-index: 9999;
+            .brand-footer-form{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                align-self: center;
+                z-index: 9999;
+                margin-top: 3%;
+                width: 340px;
+                height: 480px;
+                .succsess{
+                    width: 340px!important;
+                    height: 170px!important;
+                    .suptitle-succsess{
+                        font-size: 18px;
+                        margin: 0;
+                    }
+                    button{
+                        width: 220px!important;
+                        height: 35px!important;
+                    }
+                } 
+                .input-fields{
+                    z-index: 9999;
+                    padding-bottom: 0px;
+                    border: 2px solid #393B3D;
+                    box-shadow: -2px 2px 0px #393B3D;
+                    border-radius: 16px;
+                    display: flex;
+                    flex-direction: column;
+                    background-color: #F5F2EA;
+                    width: 340px!important;
+                    height: 550px;
+                    justify-content: center;
+                    margin: 5px;
+                    .close-btn{
+                        margin-right: 20px;
+                        width: 35px;
+                        height: 35px;
+                        align-self: flex-end;
+                        cursor: pointer;
+                    }
+                    .input-title{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        margin-top: 0;
+                        align-items: center;
+                        h1{
+                            font-family: "AndersongroteskBlack";
+                            font-size: 28px;
+                            margin: 0px 0px 10px ;
+                            text-shadow:
+                                -2px -2px #393B3D,
+                                0  -2px#393B3D,
+                                2px -2px #393B3D,
+                                2px  0 #393B3D,
+                                2px  2px #393B3D,
+                                0  2px #393B3D,
+                                -2px  2px #393B3D,
+                                -2px  0  #393B3D,
+                                -4px  4px  #393B3D;                          
+                            color: #FFCC4D;
+                            letter-spacing: 2px;
+                        }
+                        h3{
+                        display: none;
+                       }
+                    }
+                    .brandInput{
+                    
+                        display: flex;
+                        flex-direction: column;
+                        text-align: left;
+                        align-self: center;
+                        margin: 5px 0;
+                        label{
+                            font-size: 12px;
+                            align-self: flex-start;
+                            margin: 5px 0 0;
+                            font-family: "AndersonGroteskBold";
+                        }
+                        input{
+                            align-self: center;
+                            height: 29px;
+                            background: #F5F2EA;
+                            border: 2px solid #393B3D;
+                            border-radius: 10px;
+                            text-indent: 20px;
+                        }::placeholder{
+                            font-size: 14px;
+                        }
+                        span{
+                            align-self: flex-end;
+                            font-size: 12px;
+                            color: #FF6F69;
+                            font-family: "AndersonGrotesk";
+                        }
+    
+                    }
+                    .footer-btn{
+                        display: flex;
+                        justify-content: center;
+                        .footerM-btn{
+                            align-self: center;
+                            cursor: pointer;
+                            display: flex;
+                            padding: 16px 16px 16px 24px;
+                            width: 300px;
+                            align-items: center;
+                            justify-content: space-between;
+                            height: 45px;
+                            background: #F5F2EA;
+                            border: 2px solid #393B3D;
+                            border-radius: 10px;
+                            margin: 10px 0 0;
+                            img{
+                                width: 23px;
+                                height: 23px;
+                            }
+                            span{
+                                font-family: 'ArchivoBold';
+                                font-size: 18px;
+                                color: #393B3D;
+                            }
+                            
+                        }
+                    }
+                }  
+            }
+        } 
+        .dev-mobile{
+            
+        }        
+    }
+}
+@media(min-width:2560px){
+    .app_dev-container{
+        width: 100%;
+    }
+}
+@media(min-width:3840px){
+    .app_dev-container{
+        width: 3840px;
+    }
+}

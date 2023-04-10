@@ -1,0 +1,978 @@
+.pubRel-body{
+    background: url("../../../assets/secondpage-images/body-img/pubRel-BG.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    .body-wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 1040px;
+        .upper-content{
+            width: 1040px;
+            margin: 5% 0px 0px;
+            display: flex;
+            flex-direction: column;
+            .animated{
+                margin-top: 60px;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            }
+            h1{
+                margin: 20px 0 0 0;
+                text-shadow: -2px -2px 0px #393B3D, -4px 4px 0px #393B3D, 2px -2px 0px #393B3D, 2px 2px 0px #393B3D;
+                color: #FFCC4D;
+                font-size: 43px;
+                letter-spacing: 10%;
+                font-family: "AndersonGroteskBlack";
+            }
+            .up-suptitle{
+                font-size: 18px;
+                font-family: "AndersonGroteskBlack";
+                width: 630px;
+                align-self: center;
+                color: #393B3D;
+            }
+            .image-container{
+                display: flex;
+                justify-content: space-between;
+                align-items: baseline;
+                width: 1040px;
+                div{
+                    h3{
+                        font-size: 18px;
+                        font-family: "AndersonGroteskBlack";
+                        width: 215px;
+                        letter-spacing: 1px;
+                        color: #393B3D;
+                    }
+                    img{
+                        width: 130px;
+                        height: 130px;
+                    }
+                }
+                .lwreath{
+                    align-self: center;
+                    width: 55px;
+                    height: 125px;
+                }
+                .rwreath{
+                    align-self: center;
+                    width: 55px;
+                    height: 125px;
+                }
+            }
+        }
+        .block-transition{
+            margin: 30px 0;
+        }
+        .mob-form-wrapper{
+            display: none;
+        }
+        .popUp-wrapper{
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            opacity: 1.3;
+            display: flex;
+            justify-content: center;
+            background-color: rgba(0,0,0,0.75);
+            z-index: 99;
+            .calendly{
+                top: 12vh;
+                backdrop-filter: blur(15px);
+                background-color: rgba(0,0,0,0.75);
+                z-index: 9999;
+                position: fixed;
+                width: 1000px;
+                height: 500px;
+                align-self: center;
+                background: url("../../../assets/images/body-img/popupBG.png")center no-repeat;
+                background-size: cover;
+                border-radius: 25px;
+                border: 2px solid #393B3D;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+                .btn-close{
+                    align-self: flex-end;
+                    img{
+                        width: 30px;
+                        height: 30px;
+                        margin: 10px 10px 0px 0px;
+                        cursor: pointer;
+                    }
+                }
+                h1{
+                    font-family: "AndersonGroteskBlack";
+                    text-shadow:
+                        -2px -2px #393B3D,
+                        0  -2px#393B3D,
+                        2px -2px #393B3D,
+                        2px  0 #393B3D,
+                        2px  2px #393B3D,
+                        0  2px #393B3D,
+                        -2px  2px #393B3D,
+                        -2px  0  #393B3D,
+                        -4px  4px  #393B3D;
+                    color: #F5F2EA;
+                    letter-spacing: 2px;
+                    font-size: 28px;
+                    margin: 0px 0 0;
+                }
+                p{
+                    margin: 0;
+                    font-family: "AndersonGroteskBlack";
+                    color: #393B3D;
+                }
+            }
+            .popUp{
+                top: 11vh;
+                backdrop-filter: blur(15px);
+                background-color: rgba(0,0,0,0.75);
+                z-index: 9999;
+                position: fixed;
+                width: 1000px;
+                height: 600px;
+                align-self: center;
+                background: url("../../../assets/images/body-img/popupBG.png")center no-repeat;
+                background-size: cover;
+                border-radius: 25px;
+                border: 2px solid #393B3D;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+                
+                .btn-close{
+                    width: 40px;
+                    height: 40px;
+                    position: relative;
+                    font-size: 65px;
+                    font-family: "AndersonGroteskBlack";
+                    font-weight: 900;
+                    align-self: end;
+                    right: 20px;
+                    top: 20px;
+                    cursor: pointer;
+                    img{
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+                h1{
+                    font-family: "AndersonGroteskBlack";
+                    text-shadow:
+                        -2px -2px #393B3D,
+                        0  -2px#393B3D,
+                        2px -2px #393B3D,
+                        2px  0 #393B3D,
+                        2px  2px #393B3D,
+                        0  2px #393B3D,
+                        -2px  2px #393B3D,
+                        -2px  0  #393B3D,
+                        -4px  4px  #393B3D;
+                    color: #F5F2EA;
+                    letter-spacing: 2px;
+                    font-size: 28px;
+                    margin: 10px 0 0;
+                }
+                div{
+                    margin: 10px 0;
+                    height: 430px;
+                    display: flex;
+                    align-items: center;
+                    .cards-img{
+                        width: 385px;
+                        height: 400px;
+                        margin-right: 40px;
+                    }
+                    .input-block{
+                        width: 415px;
+                        background-color: #F5F2EA;
+                        border-radius: 16px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        border: 2px solid #393B3D;
+                        box-shadow: -2px 2px 0px #393B3D;
+                        span{
+                            margin:10px 0 0 35px;
+                            font-family: "AndersonGrotesk";
+                            align-self: flex-start;
+                            b{
+                                color: #FF6F69;
+                            }
+                        }
+                        .lower-text{
+                            font-family: "AndersonGrotesk";
+                            color: #5D9040;
+                            text-shadow:
+                                -1px -1px #393B3D,
+                                0  -1px#393B3D,
+                                1px -1px #393B3D,
+                                1px  0 #393B3D,
+                                1px  1px #393B3D,
+                                0  1px #393B3D,
+                                -1px  1px #393B3D,
+                                -1px  0  #393B3D,
+                                -2px  2px  #393B3D;
+                        }
+                        .input-title{
+                            font-family: "AndersonGroteskBlack";
+                            text-shadow:
+                                -2px -2px #393B3D,
+                                0  -2px#393B3D,
+                                2px -2px #393B3D,
+                                2px  0 #393B3D,
+                                2px  2px #393B3D,
+                                0  2px #393B3D,
+                                -2px  2px #393B3D,
+                                -2px  0  #393B3D,
+                                -4px  4px  #393B3D;
+                            color: #FFCC4D;
+                            letter-spacing: 1px;
+                            font-size: 22px;
+                            width: 355px;
+                            margin: 0px 0  20px;
+                        }
+                        .mailForm{
+                            
+                            display: flex;
+                            height: 250px;
+                            position: relative;
+                            .mailchimpForm{
+                                display: flex;
+                                flex-direction: column;
+                                height: 250px;
+                                
+                                .asd{
+                                    width: 25px;
+                                    height: 25px;
+                                    position: absolute;
+                                    right: 15px;
+                                    bottom: 38px;
+                                }
+                                .MailChimp-style{
+                                   display: flex;
+                                   flex-direction: column;
+                                   justify-content: center;
+                                   .msg-alert{
+                                    margin: 0px 0 0px;
+                                    height: 30px;
+                                    align-self: end;
+                                    p{
+                                        margin: 0px ; 
+                                        font-size: 12px;
+                                    }
+                                   }
+                                    input{
+                                        text-indent: 20px;
+                                        margin: 7px 0;
+                                        width: 330px;
+                                        height: 35px;
+                                        border-radius: 10px;
+                                        border: 2px solid #393B3D;
+                                        font-family: "AndersonGrotesk";
+                                    }          
+                                    button{
+                                        cursor: pointer;
+                                        display: flex;
+                                        padding: 16px;
+                                        width: 340px;
+                                        align-items: center;
+                                        justify-content: space-between;
+                                        height: 55px;
+                                        background: #F5F2EA;
+                                        border: 2px solid #393B3D;
+                                        border-radius: 10px;
+                                        font-family: 'ArchivoBold';
+                                        font-size: 14px;
+                                        color: #393B3D;
+                                        margin: 7px 0;
+                                    }
+                                    button:hover{
+                                        box-shadow: -2px 2px 0px #393B3D;
+                                        transition: .1s;
+                                    }  
+                                }
+                            }
+                            
+                        }
+                        .lower-sign{
+                            padding: 10px 0;
+                            align-self: flex-start;
+                            color: #5D9040;
+                            -webkit-text-stroke: 0.4px #393B3D;
+                            text-shadow: -1px 1px 0px #393B3D;
+                            font-family: "AndersonGrotesk";
+                            b{
+                                font-family: "AndersonGrotesk";
+                                color: #FF6F69;
+                                -webkit-text-stroke: 0.4px #393B3D;
+                                text-shadow: -1px 1px 0px #393B3D;
+                            }
+                        }
+                    }
+                }
+                .checkpoints{
+                    display: flex;
+                    align-self: center;
+                    justify-content: space-evenly;
+                    width: 100%;
+                    margin-bottom: 15px;
+                    height: 30px;
+                    div{
+                        height: 30px;
+    
+                        img{
+                            margin: 10px;
+                        }
+                        
+                        label{
+                            font-size: 18px;
+                            font-family: "AndersonGroteskBlack";
+                            color: #393B3D;
+                        }
+                    }
+                }
+            }
+        }
+        .middle-content{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 3% 0;
+            .mid-block{
+                width: 505px;
+                display: flex;
+                flex-direction: column;
+                .mid-box{
+                    display: flex;
+                    align-items: center;
+                    text-align: left;
+                    margin: 2% 0;
+                    img{
+                        width: 40px;
+                        height: 40px;
+                        margin: 0px 10px 10px 0;
+                    }
+                    h3{
+                        font-family: "AndersonGroteskBlack";
+                        font-size: 28px;
+                        width: 400px;
+                        margin: 0;
+                        text-shadow: -2px -2px 0px #393B3D, -4px 4px 0px #393B3D, 2px -2px 0px #393B3D, 2px 2px 0px #393B3D;
+                        color: #F5F2EA;
+                        letter-spacing: 1px;
+                    }
+                }
+                p{
+                    text-align: left;
+                    color: #393B3D;
+                    font-size: 18px;
+                    font-family: "AndersonGroteskBlack";
+                }
+            }
+            
+        }
+
+        .lower-content{
+            display: flex;
+            flex-direction: column;
+            margin: 4% 0px 8% 0px ;
+            h1{
+                margin: 20px 0 0 0;
+                text-shadow: -2px -2px 0px #393B3D, -4px 4px 0px #393B3D, 2px -2px 0px #393B3D, 2px 2px 0px #393B3D;
+                color: #FFCC4D;
+                font-size: 42px;
+                letter-spacing: 1px;
+                font-family: "AndersonGroteskBlack";
+            }
+            .lower-suptitle{
+                font-size: 18px;
+                font-family: "AndersonGroteskBlack";
+                color: #393B3D;
+            }
+            .image-container{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: 4% 0;
+                .wreath{
+                    width: 55px;
+                    height: 125px;
+                }
+                .lower-block{
+                    width: 245px;
+                    height: 260px;
+                    .lower-box{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        h3{
+                            font-size: 18px;
+                            font-family: "AndersonGroteskBlack";
+                            letter-spacing: 1px;
+                            width: 120px;
+                            color: #393B3D;
+                            align-self: center;
+                        }
+                        img{
+                            width: 130px;
+                            height: 130px;
+                            align-self: center;
+                        }
+                    }
+                    p{
+                        font-size: 14px;
+                        font-family: "AndersonGrotesk";
+                    }
+                }
+            }
+            
+        }
+    }
+    
+}
+
+@media(max-width: 430px) {
+    .pubRel-body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+        width: 100%;
+        max-width: 430px;
+        margin: 3px 0;
+        .body-wrapper{
+            display: flex;
+            flex-direction: column;
+            width: 340px;
+            .upper-content{
+                width: 340px;
+                margin: 5% 0px 0px;
+                display: flex;
+                flex-direction: column;
+                h1{
+                    margin: 20px 0 0 0;
+                    font-size: 26px;
+                }
+                .up-suptitle{
+                    font-size: 12px;
+                    width: 340px;
+                    align-self: center;
+                }
+                .image-container{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    width: 340px;
+                    div{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        height: 220px;
+                        img{
+                            width: 130px;
+                            height: 130px;
+                        }
+                        h3{
+                            width: 170px;
+                            margin: 0;
+                            font-size: 18px;
+                        }
+                        p{
+                            font-size: 18px;
+                            width: 215px;
+                            margin: 0;
+                            font-size: 12px;
+                        }
+                    }
+                    .lwreath{
+                        display: none;
+                    }
+                    .rwreath{
+                        display: none;
+                    }
+                }
+            }
+            .block-transition{
+                margin: 30px 0;
+            }
+            .popUp-wrapper{
+                display: none;
+            }
+            .mob-form-wrapper{
+                display: flex;
+                .popUp-wrapper{
+                    position: fixed;
+                    top: 0;
+                    bottom: 0;
+                    right: 0;
+                    left: 0;
+                    opacity: 1.3;
+                    display: flex;
+                    justify-content: center;
+                    background-color: rgba(0,0,0,0.75);
+                    z-index: 99;
+                    .popUp-mob{
+                        backdrop-filter: blur(15px);
+                        background-color: rgba(0,0,0,0.75);
+                        z-index: 9999;
+                        position: fixed;
+                        height: 580px;
+                        max-height: 90vh;
+                        width: 345px;
+                        align-self: center;
+                        background: url("../../../assets/images/body-img/popupBG.png")center no-repeat;
+                        background-size: cover;
+                        border-radius: 25px;
+                        border: 2px solid #393B3D;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        top: 13vh;
+                        .btn-close{
+                            width: 30px;
+                            height: 30px;
+                            font-family: "AndersonGroteskBlack";                      
+                            cursor: pointer;
+                            top: 0;
+                            bottom: 0px;
+                            align-self: flex-end;
+                            margin: -30px 10px 0px 0px;
+                            .close-button{               
+                                width: 30px;
+                                height: 30px;
+                                cursor: pointer;                      
+                            }
+                        }
+                        .btn-def{
+                            width: 30px;
+                            height: 30px;
+                            font-family: "AndersonGroteskBlack";                      
+                            cursor: pointer;
+                            top: 0;
+                            left: 0;
+                            right: 0;
+                            align-self: flex-end;
+                            .close-button{
+                                margin: 20px 20px 0px 0px;
+                                width: 30px;
+                                height: 30px;
+                            }
+                        }
+                        .mailchimp-form-mobile{
+                            display: flex;
+                            justify-content: center;
+                            height: 60vh;
+                            .mob-calendly{
+                                position: fixed;
+                                width: 320px;
+                                height: 50vh;
+                                align-self: center;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content: space-between;
+                                border: none;
+                                box-shadow: none;
+                                background: none;
+                                margin: -190px 0px 0px 0px;
+                                .calendly-inline-widget{
+                                    height: 380px!important;
+                                    iframe{
+                                        height: 380px;    
+                                    }
+                                }
+                                h1{
+                                    font-family: "AndersonGroteskBlack";
+                                    text-shadow:
+                                        -2px -2px #393B3D,
+                                        0  -2px#393B3D,
+                                        2px -2px #393B3D,
+                                        2px  0 #393B3D,
+                                        2px  2px #393B3D,
+                                        0  2px #393B3D,
+                                        -2px  2px #393B3D,
+                                        -2px  0  #393B3D,
+                                        -4px  4px  #393B3D;
+                                    color: #F5F2EA;
+                                    letter-spacing: 2px;
+                                    font-size: 24px;
+                                    margin: -10px 0 10px;
+                                }
+                                p{
+                                    font-size: 12px;
+                                    margin: 5px;
+                                    font-family: "AndersonGroteskBlack";
+                                    color: #393B3D;
+                                }
+                            }
+                            .input-block{
+                                width: 310px;
+                                height: 370px;
+                                background-color: #F5F2EA;
+                                border-radius: 16px;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                border: 2px solid #393B3D;
+                                box-shadow: -2px 2px 0px #393B3D;
+                                .input-title{
+                                    font-family: "AndersonGroteskBlack";
+                                    text-shadow:
+                                        -2px -2px #393B3D,
+                                        0  -2px#393B3D,
+                                        2px -2px #393B3D,
+                                        2px  0 #393B3D,
+                                        2px  2px #393B3D,
+                                        0  2px #393B3D,
+                                        -2px  2px #393B3D,
+                                        -2px  0  #393B3D,
+                                        -4px  4px  #393B3D;
+                                    color: #FFCC4D;
+                                    letter-spacing: 2px;
+                                    font-size: 24px;
+                                    margin: 0px 0 0;
+                                }   
+                                .input-require{
+                                    display: flex;
+                                    margin: 0px 0px 0px 20px;
+                                }
+                                .mailForm{
+                                    display: flex;
+                                    height: 250px;
+                                    position: relative;
+                                    .mailchimpForm{
+                                        display: flex;
+                                        flex-direction: column;
+                                        height: 250px;
+                                        form{
+                                            display: flex;
+                                            flex-direction: column;
+                                            align-items: center;
+                                            width: 300px;
+                                            input{
+                                                text-indent: 20px;
+                                                margin: 7px 0;
+                                                width: 260px;
+                                                height: 29px;
+                                                border-radius: 10px;
+                                                border: 2px solid #393B3D;
+                                                font-family: "AndersonGrotesk";
+                                            }
+                                            button{
+                                                width: 270px;
+                                                height: 45px;
+                                                cursor: pointer;
+                                                display: flex;
+                                                padding: 16px;
+                                                align-items: center;
+                                                justify-content: space-between;
+                                                background: #F5F2EA;
+                                                border: 2px solid #393B3D;
+                                                border-radius: 10px;
+                                                font-family: 'ArchivoBold';
+                                                font-size: 14px;
+                                                color: #393B3D;
+                                                margin: 7px 0;
+                                            }
+                                        }
+                                        .asd{
+                                            align-self: flex-end;
+                                            width: 25px;
+                                            height: 25px;
+                                            position: absolute;
+                                            margin: 0;
+                                            bottom: 60px;
+                                            right: 35px;
+                                        }
+                                    }
+                                }
+                                span{
+                                    margin:10px 0 0 35px;
+                                    font-family: "AndersonGrotesk";
+                                    align-self: flex-start;
+                                    b{
+                                        color: #FF6F69;
+                                    }
+                                }
+                                .lower-text{
+                                    font-family: "AndersonGrotesk";
+                                    color: #5D9040;
+                                    text-shadow:
+                                        -1px -1px #393B3D,
+                                        0  -1px#393B3D,
+                                        1px -1px #393B3D,
+                                        1px  0 #393B3D,
+                                        1px  1px #393B3D,
+                                        0  1px #393B3D,
+                                        -1px  1px #393B3D,
+                                        -1px  0  #393B3D,
+                                        -2px  2px  #393B3D;
+                                }
+                            }
+                        }
+                        .pop-present{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: space-between;
+                            height: auto;
+                            .cards-img{
+                                width: 270px;
+                                height: 290px;
+                                margin: 0;
+                                position: relative;
+                            }
+                            .popup-title{
+                                font-family: "AndersonGroteskBlack";
+                                text-shadow:
+                                    -2px -2px #393B3D,
+                                    0  -2px#393B3D,
+                                    2px -2px #393B3D,
+                                    2px  0 #393B3D,
+                                    2px  2px #393B3D,
+                                    0  2px #393B3D,
+                                    -2px  2px #393B3D,
+                                    -2px  0  #393B3D,
+                                    -4px  4px  #393B3D;
+                                color: #F5F2EA;
+                                letter-spacing: 2px;
+                                font-size: 22px;
+                                margin: 10px 0 0;
+                            }
+                            .popup-btn{
+                                margin: 10px 0px;
+                                width: 310px;
+                                height: 45px;
+                                cursor: pointer;
+                                display: flex;
+                                padding: 16px;
+                                align-items: center;
+                                justify-content: space-between;
+                                height: 45px;
+                                background: #F5F2EA;
+                                border: 2px solid #393B3D;
+                                border-radius: 10px;
+                                span{
+                                    font-family: 'ArchivoBold';
+                                    font-size: 18px;
+                                    color: #393B3D;
+                                }
+                                img{
+                                    width: 25px;
+                                    height: 25px;
+                                }
+                            }
+                            .checkpoints-mobile{
+                                flex-direction: column;
+                                display: flex;
+                                width: 310px;
+                                height: 90px;
+                                margin: 5px 0px 20px 0px;
+                                justify-content: space-between;
+                                .check-box{
+                                    align-items: center;
+                                    height: 15px;
+                                    margin: 5px 0px 0 0;
+                                    display: flex;
+                                    flex-direction: row;
+                                    img{
+                                        margin: 0px 15px 0px 0px;
+                                        position: relative;
+                                        width: 20px;
+                                        height: 20px;
+                                    }
+                                    label{
+                                        position: relative;
+                                        font-size: 12px;
+                                        font-family: "AndersonGroteskBlack";
+                                        color: #393B3D;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .middle-content{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                margin: 3% 0;
+                .mid-block{
+                    width: 505px;
+                    display: flex;
+                    flex-direction: column;
+                    .mid-box{
+                        display: flex;
+                        align-items: center;
+                        text-align: left;
+                        margin: 2% 0;
+                        img{
+                            width: 40px;
+                            height: 40px;
+                            margin: 0px 10px 10px 0;
+                        }
+                        h3{
+                            font-size: 22px;
+                            width: 250px;
+                            margin: 0;
+                        }
+                    }
+                    p{
+                        text-align: left;
+                        font-size: 12px;
+                    }
+                }
+                
+            }
+    
+            .lower-content{
+                display: flex;
+                flex-direction: column;
+                margin: 4% 0px 8% 0px ;
+                h1{
+                    margin: 20px 0 0 0;
+                    font-size: 26px;
+                    letter-spacing: 10%;
+                }
+                .lower-suptitle{
+                    font-size: 12px;
+    
+                }
+                .image-container{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin: 4% 0;
+                    width: 340px;
+                    .wreath{
+                        display: none;
+                    }
+                    .lower-block{
+                        align-items: center;
+                        display: flex;
+                        flex-direction: column;
+                        width: 340px;
+                        height: 230px;
+                        margin: 20px 0;
+                        .lower-box{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            h3{
+                                font-size: 18px;
+                                letter-spacing: 1px;
+                                width: 120px;
+                                align-self: center;
+                                margin: 0;
+                            }
+                            img{
+                                width: 130px;
+                                height: 130px;
+                                align-self: center;
+                            }
+                        }
+                        p{
+                            margin: 0;
+                            align-self: center;
+                            width: 200px;
+                            font-size: 12px;
+                        }
+                    }
+                }
+                
+            }
+        }
+        
+    }
+}
+
+//////animations
+/*
+.mobile-img-box{
+                    
+    img{
+        width: 130px;
+        height: 130px;
+    }
+    .reveal {
+        position: relative;
+        opacity: 0;
+      }
+      
+      .reveal.active {
+        opacity: 1;
+      }
+      .active.fade-bottom {
+        animation: fade-bottom 1s ease-in;
+      }
+
+    .wreath{
+        display: none;
+    }
+    @keyframes fade-bottom {
+        0% {
+          transform: translateY(50px);
+          opacity: 0;
+        }
+        100% {
+          transform: translateY(0);
+          opacity: 1;
+        }
+    }
+}
+
+.mob-mid-content{
+    .reveal {
+        position: relative;
+        opacity: 0;
+    }
+      
+    .reveal.active {
+        opacity: 1;
+    }
+    .active.fade-left {
+        animation: fade-left 0.5s ease-in;
+    }
+    .active.fade-right {
+        animation: fade-right 0.5s ease-in;
+    }
+    @keyframes fade-left {
+        0% {
+          transform: translateX(-100px);
+          opacity: 0;
+        }
+        100% {
+          transform: translateX(0);
+          opacity: 1;
+        }
+    }
+      
+    @keyframes fade-right {
+        0% {
+          transform: translateX(100px);
+          opacity: 0;
+        }
+        100% {
+          transform: translateX(0);
+          opacity: 1;
+        }
+    }
+}
+*/
+
+

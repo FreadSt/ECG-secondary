@@ -1,0 +1,1074 @@
+.webMarket-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: url("../../../assets//fifthpage-images/body-img/body-BG.png");
+    .block-transition{
+        width: 1040px;
+        margin: 30px 0;
+    }
+    .animated .animate__rollIn {
+        --animate-duration: 2s;
+    }
+    .for-project{
+        width: 1040px;
+        margin: 30px 0;
+        h1{
+            margin: 20px 0 30px 0;
+            text-shadow:
+                -2px -2px #393B3D,
+                0  -2px#393B3D,
+                2px -2px #393B3D,
+                2px  0 #393B3D,
+                2px  2px #393B3D,
+                0  2px #393B3D,
+                -2px  2px #393B3D,
+                -2px  0  #393B3D,
+                -4px  4px  #393B3D;              
+            color: #FFCC4D;
+            font-size: 42px;
+            letter-spacing: 2px;
+            align-self: center;
+            font-family: "AndersonGroteskBlack";    
+        }
+        p{
+            font-family: "AndersonGroteskBlack";
+            font-size: 18px;
+            color: #393B3D;
+        }
+        .images-box{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .wreath{
+                width: 55px;
+                height: 125px;
+            }
+            .card-block{
+                width: 245px;
+                height: 220px;
+                img{
+                    width: 130px;
+                    height: 130px;
+                }
+                h3{
+                    margin: 0;
+                    font-size: 18px;
+                    font-family: "AndersonGroteskBlack";
+                    letter-spacing: 1px;
+                    color: #393B3D;
+                }
+                p{
+                    margin: 0;
+                    font-size: 14px;
+                    font-family: "AndersonGrotesk";
+                    color: #393B3D;
+                }   
+            }
+        }
+    }
+    .web-nft{
+        margin: 5% 0;
+        display: flex;
+        align-items: center;
+        width: 1040px;
+        img{
+            width: 400px;
+            height: 400px;
+        }
+        div{
+            text-align: left;
+            margin-left: 20px;
+            width: 600px;
+            h1{
+                margin: 20px 0 15px 0;
+                text-shadow:
+                    -2px -2px #393B3D,
+                    0  -2px#393B3D,
+                    2px -2px #393B3D,
+                    2px  0 #393B3D,
+                    2px  2px #393B3D,
+                    0  2px #393B3D,
+                    -2px  2px #393B3D,
+                    -2px  0  #393B3D,
+                    -4px  4px  #393B3D;                  
+                color: #FFCC4D;
+                font-size: 42px;
+                letter-spacing: 2px;
+                font-family: "AndersonGroteskBlack";
+
+            }
+            h4{
+                font-family: "AndersonGroteskBlack";
+                font-size: 18px;
+                margin: 0px;
+                color: #393B3D;
+            }
+            p{
+                font-family: "AndersonGroteskBold";
+                color: #393B3D;
+                font-size: 16px;
+                margin: 10px 0;
+            }
+        }
+    }
+
+    .mobile-nft{
+        display: none;
+    }
+
+    .mob-form-wrapper{
+        display: none;
+    }
+    .popUp-wrapper{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        opacity: 1.3;
+        display: flex;
+        justify-content: center;
+        background-color: rgba(0,0,0,0.75);
+        z-index: 99;
+        .calendly{
+            top: 12vh;
+            backdrop-filter: blur(15px);
+            background-color: rgba(0,0,0,0.75);
+            z-index: 9999;
+            position: fixed;
+            width: 1000px;
+            height: 500px;
+            align-self: center;
+            background: url("../../../assets/images/body-img/popupBG.png")center no-repeat;
+            background-size: cover;
+            border-radius: 25px;
+            border: 2px solid #393B3D;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            .btn-close{
+                align-self: flex-end;
+                img{
+                    width: 30px;
+                    height: 30px;
+                    margin: 10px 10px 0px 0px;
+                    cursor: pointer;
+                }
+            }
+            h1{
+                font-family: "AndersonGroteskBlack";
+                text-shadow:
+                    -2px -2px #393B3D,
+                    0  -2px#393B3D,
+                    2px -2px #393B3D,
+                    2px  0 #393B3D,
+                    2px  2px #393B3D,
+                    0  2px #393B3D,
+                    -2px  2px #393B3D,
+                    -2px  0  #393B3D,
+                    -4px  4px  #393B3D;
+                color: #F5F2EA;
+                letter-spacing: 2px;
+                font-size: 28px;
+                margin: 0px 0 0;
+            }
+            p{
+                margin: 0;
+                font-family: "AndersonGroteskBlack";
+                color: #393B3D;
+            }
+        }
+        .popUp{
+            top: 11vh;
+            backdrop-filter: blur(15px);
+            background-color: rgba(0,0,0,0.75);
+            z-index: 9999;
+            position: fixed;
+            width: 1000px;
+            height: 600px;
+            align-self: center;
+            background: url("../../../assets/images/body-img/popupBG.png")center no-repeat;
+            background-size: cover;
+            border-radius: 25px;
+            border: 2px solid #393B3D;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            
+            .btn-close{
+                width: 40px;
+                height: 40px;
+                position: relative;
+                font-size: 65px;
+                font-family: "AndersonGroteskBlack";
+                font-weight: 900;
+                align-self: end;
+                right: 20px;
+                top: 20px;
+                cursor: pointer;
+                img{
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+            h1{
+                font-family: "AndersonGroteskBlack";
+                text-shadow:
+                    -2px -2px #393B3D,
+                    0  -2px#393B3D,
+                    2px -2px #393B3D,
+                    2px  0 #393B3D,
+                    2px  2px #393B3D,
+                    0  2px #393B3D,
+                    -2px  2px #393B3D,
+                    -2px  0  #393B3D,
+                    -4px  4px  #393B3D;
+                color: #F5F2EA;
+                letter-spacing: 2px;
+                font-size: 28px;
+                margin: 10px 0 0;
+            }
+            div{
+                margin: 10px 0;
+                height: 430px;
+                display: flex;
+                align-items: center;
+                .cards-img{
+                    width: 385px;
+                    height: 400px;
+                    margin-right: 40px;
+                }
+                .input-block{
+                    width: 415px;
+                    background-color: #F5F2EA;
+                    border-radius: 16px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    border: 2px solid #393B3D;
+                    box-shadow: -2px 2px 0px #393B3D;
+                    span{
+                        margin:10px 0 0 35px;
+                        font-family: "AndersonGrotesk";
+                        align-self: flex-start;
+                        b{
+                            color: #FF6F69;
+                        }
+                    }
+                    .lower-text{
+                        font-family: "AndersonGrotesk";
+                        color: #5D9040;
+                        text-shadow:
+                            -1px -1px #393B3D,
+                            0  -1px#393B3D,
+                            1px -1px #393B3D,
+                            1px  0 #393B3D,
+                            1px  1px #393B3D,
+                            0  1px #393B3D,
+                            -1px  1px #393B3D,
+                            -1px  0  #393B3D,
+                            -2px  2px  #393B3D;
+                    }
+                    .input-title{
+                        font-family: "AndersonGroteskBlack";
+                        text-shadow:
+                            -2px -2px #393B3D,
+                            0  -2px#393B3D,
+                            2px -2px #393B3D,
+                            2px  0 #393B3D,
+                            2px  2px #393B3D,
+                            0  2px #393B3D,
+                            -2px  2px #393B3D,
+                            -2px  0  #393B3D,
+                            -4px  4px  #393B3D;
+                        color: #FFCC4D;
+                        letter-spacing: 1px;
+                        font-size: 22px;
+                        width: 355px;
+                        margin: 0px 0  20px;
+                    }
+                    .mailForm{
+                        
+                        display: flex;
+                        height: 250px;
+                        position: relative;
+                        .mailchimpForm{
+                            display: flex;
+                            flex-direction: column;
+                            height: 250px;
+                            
+                            .asd{
+                                width: 25px;
+                                height: 25px;
+                                position: absolute;
+                                right: 15px;
+                                bottom: 38px;
+                            }
+                            .MailChimp-style{
+                               display: flex;
+                               flex-direction: column;
+                               justify-content: center;
+                               .msg-alert{
+                                margin: 0px 0 0px;
+                                height: 30px;
+                                align-self: end;
+                                p{
+                                    margin: 0px ; 
+                                    font-size: 12px;
+                                }
+                               }
+                                input{
+                                    text-indent: 20px;
+                                    margin: 7px 0;
+                                    width: 330px;
+                                    height: 35px;
+                                    border-radius: 10px;
+                                    border: 2px solid #393B3D;
+                                    font-family: "AndersonGrotesk";
+                                }          
+                                button{
+                                    cursor: pointer;
+                                    display: flex;
+                                    padding: 16px;
+                                    width: 340px;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    height: 55px;
+                                    background: #F5F2EA;
+                                    border: 2px solid #393B3D;
+                                    border-radius: 10px;
+                                    font-family: 'ArchivoBold';
+                                    font-size: 14px;
+                                    color: #393B3D;
+                                    margin: 7px 0;
+                                }
+                                button:hover{
+                                    box-shadow: -2px 2px 0px #393B3D;
+                                    transition: .1s;
+                                }  
+                            }
+                        }
+                        
+                    }
+                    .lower-sign{
+                        padding: 10px 0;
+                        align-self: flex-start;
+                        color: #5D9040;
+                        -webkit-text-stroke: 0.4px #393B3D;
+                        text-shadow: -1px 1px 0px #393B3D;
+                        font-family: "AndersonGrotesk";
+                        b{
+                            font-family: "AndersonGrotesk";
+                            color: #FF6F69;
+                            -webkit-text-stroke: 0.4px #393B3D;
+                            text-shadow: -1px 1px 0px #393B3D;
+                        }
+                    }
+                }
+            }
+            .checkpoints{
+                display: flex;
+                align-self: center;
+                justify-content: space-evenly;
+                width: 100%;
+                margin-bottom: 15px;
+                height: 30px;
+                div{
+                    height: 30px;
+                    img{
+                        margin: 10px;
+                    }
+                    label{
+                        font-size: 18px;
+                        font-family: "AndersonGroteskBlack";
+                        color: #393B3D;
+                    }
+                }
+            }
+        }
+    }
+    
+    .SMM-growth{
+        display: flex;
+        width: 1040px;
+        justify-content: space-between;
+        align-items: center;
+        margin: 4% 0;
+        .SMM-text{
+            width: 600px;
+            text-align: left;
+            h1{
+                margin: 20px 0 10px 0;
+                text-shadow:
+                    -2px -2px #393B3D,
+                    0  -2px#393B3D,
+                    2px -2px #393B3D,
+                    2px  0 #393B3D,
+                    2px  2px #393B3D,
+                    0  2px #393B3D,
+                    -2px  2px #393B3D,
+                    -2px  0  #393B3D,
+                    -4px  4px  #393B3D;                  
+                color: #FFCC4D;
+                font-size: 42px;
+                letter-spacing: 2px;
+                align-self: center;
+                font-family: "AndersonGroteskBlack"
+            }
+            h4{
+                margin: 0;
+                font-size: 18px;
+                font-family: "AndersonGroteskBlack";
+                letter-spacing: 0.5px;
+                color: #393B3D;
+            }
+            p{
+                margin: 10px 0;
+                font-size: 16px;
+                font-family: "AndersonGroteskBold";
+                color: #393B3D;
+            }
+        }
+    }
+    .mob-SMM{
+        display: none;
+    }
+
+    .influencer-marketing{
+        width: 1040px;
+        margin: 2% 0;
+        h1{
+            margin: 20px 0 10px 0;
+            text-shadow:
+                -2px -2px #393B3D,
+                0  -2px#393B3D,
+                2px -2px #393B3D,
+                2px  0 #393B3D,
+                2px  2px #393B3D,
+                0  2px #393B3D,
+                -2px  2px #393B3D,
+                -2px  0  #393B3D,
+                -4px  4px  #393B3D;              
+            color: #FFCC4D;
+            font-size: 42px;
+            letter-spacing: 2px;
+            align-self: center;
+            font-family: "AndersonGroteskBlack"
+        }
+        h4{
+            margin: 0;
+            font-size: 18px;
+            font-family: "AndersonGroteskBlack";
+            letter-spacing: 1px;
+            color: #393B3D;
+        }
+        p{
+            margin: 10px 0;
+            font-size: 16px;
+            font-family: "AndersonGroteskBold";
+            color: #393B3D;
+            b{
+                font-family: "AndersonGroteskBlack";
+                letter-spacing: 1px;
+            }
+        }
+    }
+    .mob-influencerM{
+        display: none;
+    }
+
+    .do_it-box{
+        display: flex;
+        flex-direction: column;
+        margin: 4% 0 5%;
+        .doit-title{
+            margin: 0px 0 30px 0;
+            text-shadow:
+                -2px -2px #393B3D,
+                0  -2px#393B3D,
+                2px -2px #393B3D,
+                2px  0 #393B3D,
+                2px  2px #393B3D,
+                0  2px #393B3D,
+                -2px  2px #393B3D,
+                -2px  0  #393B3D,
+                -4px  4px  #393B3D;              
+            color: #FFCC4D;
+            font-size: 42px;
+            letter-spacing: 2px;
+            align-self: center;
+            font-family: "AndersonGroteskBlack"
+        }
+        .cards-block{
+            width: 1040px;
+            justify-content: space-between;
+            display: flex;
+            flex-wrap: wrap;
+            div{
+                display: flex;
+                width: 500px;
+                height: 100px;
+                text-align: left;
+                align-items: center;
+                border: 2px solid #393B3D;
+                border-radius: 10px;
+                box-shadow: -2px 2px 0px #393B3D;
+                margin: 15px 0px;
+                h1{
+                    font-family: "Baloo";
+                    font-size: 60px;
+                    margin: 25px;
+                    text-shadow: -2px 2px 0px #393B3D;
+                }
+                h4{
+                    font-size: 18px;
+                    margin: 0;
+                    font-family: "AndersonGroteskBlack";
+                    color: #393B3D;
+                }
+            }
+        }
+    }
+    .mob-doit-box{
+        display: none;
+    }
+}
+
+@media(max-width:430px) {
+    .webMarket-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        .block-transition{
+            width: 340px;
+            margin: 10px 0;
+        }
+        .for-project{
+            width: 340px;
+            margin: 30px 0;
+            h1{
+                margin: 20px 0 30px 0;
+                font-size:26px;
+                align-self: center;
+            }
+            p{
+            }
+            .images-box{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                .wreath{
+                   display: none;
+                }
+                .card-block{
+                    margin: 10px 0;
+                    width: 245px;
+                    height: 220px;
+                    h3{
+                        margin: 0;
+                        font-size: 18px;    
+                    }
+                    p{
+                        margin: 0;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        .web-nft{
+            display: none;
+        }
+        .popUp-wrapper{
+            display: none;
+        }
+        .mob-form-wrapper{
+            display: flex;
+            .popUp-wrapper{
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                opacity: 1.3;
+                display: flex;
+                justify-content: center;
+                background-color: rgba(0,0,0,0.75);
+                z-index: 99;
+                .popUp-mob{
+                    backdrop-filter: blur(15px);
+                    background-color: rgba(0,0,0,0.75);
+                    z-index: 9999;
+                    position: fixed;
+                    height: 580px;
+                    max-height: 90vh;
+                    width: 345px;
+                    align-self: center;
+                    background: url("../../../assets/images/body-img/popupBG.png")center no-repeat;
+                    background-size: cover;
+                    border-radius: 25px;
+                    border: 2px solid #393B3D;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    top: 13vh;
+                    .btn-close{
+                        width: 30px;
+                        height: 30px;
+                        font-family: "AndersonGroteskBlack";                      
+                        cursor: pointer;
+                        top: 0;
+                        bottom: 0px;
+                        align-self: flex-end;
+                        margin: -30px 10px 0px 0px;
+                        .close-button{               
+                            width: 30px;
+                            height: 30px;
+                            cursor: pointer;                      
+                        }
+                    }
+                    .btn-def{
+                        width: 30px;
+                        height: 30px;
+                        font-family: "AndersonGroteskBlack";                      
+                        cursor: pointer;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        align-self: flex-end;
+                        margin: 10px 10px 0px 0px;
+                        .close-button{
+                            margin: 0px 0px 0px 0px;
+                            width: 30px;
+                            height: 30px;
+                        }
+                    }
+                    .mailchimp-form-mobile{
+                        display: flex;
+                        justify-content: center;
+                        height: 60vh;
+                        .mob-calendly{
+                            position: fixed;
+                            width: 320px;
+                            height: 50vh;
+                            align-self: center;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: space-between;
+                            border: none;
+                            box-shadow: none;
+                            background: none;
+                            margin: -190px 0px 0px 0px;
+                            .calendly-inline-widget{
+                                height: 380px!important;
+                                iframe{
+                                    height: 380px;    
+                                }
+                            }
+                            h1{
+                                font-family: "AndersonGroteskBlack";
+                                text-shadow:
+                                    -2px -2px #393B3D,
+                                    0  -2px#393B3D,
+                                    2px -2px #393B3D,
+                                    2px  0 #393B3D,
+                                    2px  2px #393B3D,
+                                    0  2px #393B3D,
+                                    -2px  2px #393B3D,
+                                    -2px  0  #393B3D,
+                                    -4px  4px  #393B3D;
+                                color: #F5F2EA;
+                                letter-spacing: 2px;
+                                font-size: 24px;
+                                margin: -10px 0 10px;
+                            }
+                            p{
+                                font-size: 12px;
+                                margin: 5px;
+                                font-family: "AndersonGroteskBlack";
+                                color: #393B3D;
+                            }
+                        }
+                        .input-block{
+                            width: 310px;
+                            height: 370px;
+                            background-color: #F5F2EA;
+                            border-radius: 16px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            border: 2px solid #393B3D;
+                            box-shadow: -2px 2px 0px #393B3D;
+                            .input-title{
+                                font-family: "AndersonGroteskBlack";
+                                text-shadow:
+                                    -2px -2px #393B3D,
+                                    0  -2px#393B3D,
+                                    2px -2px #393B3D,
+                                    2px  0 #393B3D,
+                                    2px  2px #393B3D,
+                                    0  2px #393B3D,
+                                    -2px  2px #393B3D,
+                                    -2px  0  #393B3D,
+                                    -4px  4px  #393B3D;
+                                color: #FFCC4D;
+                                letter-spacing: 2px;
+                                font-size: 24px;
+                                margin: 0px 0 0;
+                            }   
+                            .input-require{
+                                display: flex;
+                                margin: 0px 0px 0px 20px;
+                            }
+                            .mailForm{
+                                display: flex;
+                                height: 250px;
+                                position: relative;
+                                .mailchimpForm{
+                                    display: flex;
+                                    flex-direction: column;
+                                    height: 250px;
+                                    form{
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: center;
+                                        width: 300px;
+                                        input{
+                                            text-indent: 20px;
+                                            margin: 7px 0;
+                                            width: 260px;
+                                            height: 29px;
+                                            border-radius: 10px;
+                                            border: 2px solid #393B3D;
+                                            font-family: "AndersonGrotesk";
+                                        }
+                                        button{
+                                            width: 270px;
+                                            height: 45px;
+                                            cursor: pointer;
+                                            display: flex;
+                                            padding: 16px;
+                                            align-items: center;
+                                            justify-content: space-between;
+                                            background: #F5F2EA;
+                                            border: 2px solid #393B3D;
+                                            border-radius: 10px;
+                                            font-family: 'ArchivoBold';
+                                            font-size: 14px;
+                                            color: #393B3D;
+                                            margin: 7px 0;
+                                        }
+                                    }
+                                    .asd{
+                                        align-self: flex-end;
+                                        width: 25px;
+                                        height: 25px;
+                                        position: absolute;
+                                        margin: 0;
+                                        bottom: 60px;
+                                        right: 35px;
+                                    }
+                                }
+                            }
+                            span{
+                                margin:10px 0 0 35px;
+                                font-family: "AndersonGrotesk";
+                                align-self: flex-start;
+                                b{
+                                    color: #FF6F69;
+                                }
+                            }
+                            .lower-text{
+                                font-family: "AndersonGrotesk";
+                                color: #5D9040;
+                                text-shadow:
+                                    -1px -1px #393B3D,
+                                    0  -1px#393B3D,
+                                    1px -1px #393B3D,
+                                    1px  0 #393B3D,
+                                    1px  1px #393B3D,
+                                    0  1px #393B3D,
+                                    -1px  1px #393B3D,
+                                    -1px  0  #393B3D,
+                                    -2px  2px  #393B3D;
+                            }
+                        }
+                    }
+                    .pop-present{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: space-between;
+                        height: auto;
+                        .cards-img{
+                            width: 270px;
+                            height: 290px;
+                            margin: 0;
+                            position: relative;
+                        }
+                        .popup-title{
+                            font-family: "AndersonGroteskBlack";
+                            text-shadow:
+                                -2px -2px #393B3D,
+                                0  -2px#393B3D,
+                                2px -2px #393B3D,
+                                2px  0 #393B3D,
+                                2px  2px #393B3D,
+                                0  2px #393B3D,
+                                -2px  2px #393B3D,
+                                -2px  0  #393B3D,
+                                -4px  4px  #393B3D;
+                            color: #F5F2EA;
+                            letter-spacing: 2px;
+                            font-size: 22px;
+                            margin: 10px 0 0;
+                        }
+                        .popup-btn{
+                            margin: 10px 0px;
+                            width: 310px;
+                            height: 45px;
+                            cursor: pointer;
+                            display: flex;
+                            padding: 16px;
+                            align-items: center;
+                            justify-content: space-between;
+                            height: 45px;
+                            background: #F5F2EA;
+                            border: 2px solid #393B3D;
+                            border-radius: 10px;
+                            span{
+                                font-family: 'ArchivoBold';
+                                font-size: 18px;
+                                color: #393B3D;
+                            }
+                            img{
+                                width: 25px;
+                                height: 25px;
+                            }
+                        }
+                        .checkpoints-mobile{
+                            flex-direction: column;
+                            display: flex;
+                            width: 310px;
+                            height: 90px;
+                            margin: 5px 0px 20px 0px;
+                            justify-content: space-between;
+                            .check-box{
+                                align-items: center;
+                                height: 15px;
+                                margin: 5px 0px 0 0;
+                                display: flex;
+                                flex-direction: row;
+                                img{
+                                    margin: 0px 15px 0px 0px;
+                                    position: relative;
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                                label{
+                                    position: relative;
+                                    font-size: 12px;
+                                    font-family: "AndersonGroteskBlack";
+                                    color: #393B3D;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .mobile-nft{
+            width: 340px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h1{
+                font-size: 26px;
+                align-self: center;
+                text-shadow:
+                    -2px -2px #393B3D,
+                    0  -2px#393B3D,
+                    2px -2px #393B3D,
+                    2px  0 #393B3D,
+                    2px  2px #393B3D,
+                    0  2px #393B3D,
+                    -2px  2px #393B3D,
+                    -2px  0  #393B3D,
+                    -4px  4px  #393B3D;                  
+                color: #FFCC4D;
+                font-family: "AndersonGroteskBlack";
+            }
+            h4{
+                font-size: 18px;
+            }
+            img{
+                width: 170px;
+                height: 160px;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+        .SMM-growth{
+            display: none;
+        }
+        .mob-SMM{
+            display: flex;
+            flex-direction: column;
+            width: 340px;
+            justify-content: space-between;
+            align-items: center;
+            margin: 4% 0;
+            .SMM-text{
+                h1{
+                    margin: 20px 0 30px 0;
+                    text-shadow:
+                        -2px -2px #393B3D,
+                        0  -2px#393B3D,
+                        2px -2px #393B3D,
+                        2px  0 #393B3D,
+                        2px  2px #393B3D,
+                        0  2px #393B3D,
+                        -2px  2px #393B3D,
+                        -2px  0  #393B3D,
+                        -4px  4px  #393B3D;                  
+                    color: #FFCC4D;
+                    font-size: 26px;
+                    letter-spacing: 2px;
+                    align-self: center;
+                    font-family: "AndersonGroteskBlack"
+                }
+                h4{
+                    margin: 0;
+                    font-size: 14px;
+                    font-family: "AndersonGroteskBlack";
+                    letter-spacing: 0.5px;
+                    color: #393B3D;
+                }
+                p{
+                    margin: 10px 0;
+                    font-size: 16px;
+                    font-family: "AndersonGroteskBold";
+                    color: #393B3D;
+                }
+            }
+        }
+    
+        .influencer-marketing{
+            display: none;
+        }
+        .mob-influencerM{
+            display: flex;
+            flex-direction: column;
+            margin: 2% 0;
+            h1{
+                width: 300px;
+                margin: 20px 0 10px 0;
+                text-shadow:
+                    -2px -2px #393B3D,
+                    0  -2px#393B3D,
+                    2px -2px #393B3D,
+                    2px  0 #393B3D,
+                    2px  2px #393B3D,
+                    0  2px #393B3D,
+                    -2px  2px #393B3D,
+                    -2px  0  #393B3D,
+                    -4px  4px  #393B3D;              
+                color: #FFCC4D;
+                font-size: 26px;
+                letter-spacing: 2px;
+                align-self: center;
+                font-family: "AndersonGroteskBlack"
+            }
+            h4{
+                align-self: center;
+                width: 350px;
+                margin: 0;
+                font-size: 18px;
+                font-family: "AndersonGroteskBlack";
+                letter-spacing: 2px;
+                color: #393B3D;
+            }
+            p{
+                align-self: center;
+                width: 340px;
+                margin: 10px 0;
+                font-size: 14px;
+                font-family: "AndersonGroteskBold";
+                color: #393B3D;
+                b{
+                    font-family: "AndersonGroteskBlack";
+                    letter-spacing: 1px;
+                }
+            }
+        }
+    
+        .do_it-box{
+            display: flex;
+            flex-direction: column;
+            margin: 4% 0 5%;
+            .doit-title{
+                margin: 0px 0 30px 0;
+                text-shadow:
+                    -2px -2px #393B3D,
+                    0  -2px#393B3D,
+                    2px -2px #393B3D,
+                    2px  0 #393B3D,
+                    2px  2px #393B3D,
+                    0  2px #393B3D,
+                    -2px  2px #393B3D,
+                    -2px  0  #393B3D,
+                    -4px  4px  #393B3D;              
+                color: #FFCC4D;
+                font-size: 42px;
+                letter-spacing: 2px;
+                align-self: center;
+                font-family: "AndersonGroteskBlack"
+            }
+            .cards-block{
+                width: 340px;
+                justify-content: space-between;
+                display: flex;
+                flex-wrap: wrap;
+                margin: 20px 0;
+                div{
+                    display: flex;
+                    width: 340px;
+                    height: 100px;
+                    text-align: left;
+                    align-items: center;
+                    border: 2px solid #393B3D;
+                    border-radius: 10px;
+                    box-shadow: -2px 2px 0px #393B3D;
+                    margin: 15px 0px;
+                    h1{
+                        font-family: "Baloo";
+                        font-size: 45px;
+                        margin: 25px;
+                        text-shadow: -2px 2px 0px #393B3D;
+                        letter-spacing: px;
+                    }
+                    h4{
+                        width: 200px;
+                        font-size: 14px;
+                        margin: 0;
+                        font-family: "AndersonGroteskBlack";
+                        color: #393B3D;
+                        letter-spacing: 1px;
+                    }
+                }
+            }        }
+        .mob-doit-box{
+            
+        }
+    }
+}

@@ -1,0 +1,398 @@
+.main-footer-box{
+    width: 100%;
+    height: 840px;
+    background: 
+        url("../../../assets/fourthpage-images/footer-img/brandFooter-BG.png") no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .brand-footer{
+        display: flex;
+        align-items: center;
+        .footer-text{
+            margin: 10px;
+            width: 550px;
+            height: 530px;
+        }
+        .brand-footer-form{
+            display: flex;
+            flex-direction: column;
+            .succsess{
+                margin: 10% 0;
+                width: 400px;
+                height: 280px;
+                align-self: center;
+                background-color: #F5F2EA;
+                text-align: center;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                border-radius: 16px;
+                box-shadow: -2px 2px 0px #393B3D;
+                justify-content: center;
+                h1{
+                    font-family: "AndersongroteskBlack";
+                    font-size: 42px;
+                    margin: 0px 0px 10px ;
+                    text-shadow:
+                        -2px -2px #393B3D,
+                        0  -2px#393B3D,
+                        2px -2px #393B3D,
+                        2px  0 #393B3D,
+                        2px  2px #393B3D,
+                        0  2px #393B3D,
+                        -2px  2px #393B3D,
+                        -2px  0  #393B3D,
+                        -4px  4px  #393B3D;                          
+                    color: #FFCC4D;
+                    font-size: 28px;
+                    letter-spacing: 2px;
+                }
+               .suptitle-succsess{
+                    color: #393B3D;
+                    font-size: 18px;
+                    width: 300px;
+                    font-family: "AndersongroteskBlack";
+                }
+                button{
+                    cursor: pointer;
+                    margin: 20px 0 0;
+                    border-radius: 10px;
+                    width: 70px;
+                    height: 55px;
+                    background: #5D9040;
+                    border: 2px solid #393B3D;
+                    box-shadow: -2px 2px 0px #393B3D;
+                    span{
+                        font-family: "ArchivoBold";
+                        color: #F5F2EA;
+                        font-size: 18px;
+                    }
+                }
+            }
+            .input-fields{
+                padding-bottom: 0px;
+                border: 2px solid #393B3D;
+                box-shadow: -2px 2px 0px #393B3D;
+                border-radius: 16px;
+                display: flex;
+                flex-direction: column;
+                background-color: #F5F2EA;
+                width: 400px;
+                height: 650px;
+                justify-content: center;
+                margin: 30px;
+                .input-title{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    margin-top: 0;
+                    align-items: center;
+                    h1{
+                        font-family: "AndersongroteskBlack";
+                        font-size: 42px;
+                        margin: 0px 0px 10px ;
+                        text-shadow:
+                            -2px -2px #393B3D,
+                            0  -2px#393B3D,
+                            2px -2px #393B3D,
+                            2px  0 #393B3D,
+                            2px  2px #393B3D,
+                            0  2px #393B3D,
+                            -2px  2px #393B3D,
+                            -2px  0  #393B3D,
+                            -4px  4px  #393B3D;                          
+                        color: #FFCC4D;
+                        font-size: 42px;
+                        letter-spacing: 2px;
+                    }
+                    h3{
+                    font-size: 18px;
+                    color: #393B3D;
+                    font-family: "AndersongroteskBlack";
+                    width: 195px;
+                    margin: 0px 0px 20px;
+                    letter-spacing: 1px;
+                   }
+                }
+                .brandInput{
+                    display: flex;
+                    flex-direction: column;
+                    text-align: left;
+                    align-self: center;
+                    margin: 5px 0;
+                    width: 320px;
+                    label{
+                        margin: 10px 0;
+                        font-family: "AndersonGroteskBold";
+                    }
+                    input{
+                        align-self: center;
+                        width: 312px;
+                        height: 35px;
+                        background: #F5F2EA;
+                        border: 2px solid #393B3D;
+                        border-radius: 10px;
+                        text-indent: 20px;
+                    }::placeholder{
+                        font-size: 14px;
+                    }
+                    span{
+                        align-self: flex-end;
+                        font-size: 12px;
+                        color: #FF6F69;
+                        font-family: "AndersonGrotesk";
+                    }
+
+                }
+                .footerM-btn{ 
+                    align-self: center;
+                    cursor: pointer;
+                    display: flex;
+                    padding: 16px 16px 16px 24px;
+                    width: 320px;
+                    align-items: center;
+                    justify-content: space-between;
+                    height: 55px;
+                    background: #F5F2EA;
+                    border: 2px solid #393B3D;
+                    border-radius: 10px;
+                    margin: 10px 0 0;
+                    img{
+                        width: 23px;
+                        height: 23px;
+                    }
+                    span{
+                        font-family: 'ArchivoBold';
+                        font-size: 18px;
+                        color: #393B3D;
+                    }
+                    
+                }
+                .footerM-btn-disabled{
+                    align-self: center;
+                    cursor: pointer;
+                    display: flex;
+                    padding: 16px 16px 16px 24px;
+                    width: 320px;
+                    align-items: center;
+                    justify-content: space-between;
+                    height: 55px;
+                    background: #F5F2EA;
+                    border: 2px solid #6d6e6e;
+                    border-radius: 10px;
+                    margin: 10px 0 0;
+                    img{
+                        width: 23px;
+                        height: 23px;
+                        filter: contrast(0.5);
+                    }
+                    span{
+                        font-family: 'ArchivoBold';
+                        font-size: 18px;
+                        color: #87898a;
+                    }
+                }
+            }   
+        }
+    }
+    .mob-brandFooter{
+        display: none;
+    }
+}
+
+@media(max-width:430px) {
+    .main-footer-box{
+        width: 100%;
+        height: 965px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .brand-footer{
+            display: none;
+        }
+        .mob-brandFooter{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 30px 0;
+            width: 100%;
+            max-width: 430px;
+            .footer-text{
+                margin: 20px;
+                width: 300px;
+                height: 240px;
+            }
+            .brand-footer-form{
+                display: flex;
+                flex-direction: column;
+                    .input-fields{
+                    padding-bottom: 0px;
+                    border: 2px solid #393B3D;
+                    box-shadow: -2px 2px 0px #393B3D;
+                    border-radius: 16px;
+                    display: flex;
+                    flex-direction: column;
+                    background-color: #F5F2EA;
+                    width: 350px;
+                    height: 500px;
+                    justify-content: center;
+                    .input-title{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        margin-top: 0;
+                        align-items: center;
+                        h1{
+                            font-family: "AndersongroteskBlack";
+                            font-size: 26px;
+                            margin: 10px 0px 0px ;
+                            text-shadow:
+                                -2px -2px #393B3D,
+                                0  -2px#393B3D,
+                                2px -2px #393B3D,
+                                2px  0 #393B3D,
+                                2px  2px #393B3D,
+                                0  2px #393B3D,
+                                -2px  2px #393B3D,
+                                -2px  0  #393B3D,
+                                -4px  4px  #393B3D;                          
+                            color: #FFCC4D;
+                            letter-spacing: 2px;
+                        }
+                        h3{
+                            font-size: 12px;
+                            color: #393B3D;
+                            font-family: "AndersongroteskBlack";
+                            width: 195px;
+                            margin: 0px 0px 0px;
+                            letter-spacing: 1px;
+                        }
+                        
+                    }
+                    .brandInput{
+                        display: flex;
+                        flex-direction: column;
+                        text-align: left;
+                        align-self: center;
+                        margin: 5px 0;
+                        width: 320px;
+                        label{
+                            margin: 10px 0;
+                            font-family: "AndersonGroteskBold";
+                            font-size: 12px;
+                        }
+                        input{
+                            align-self: center;
+                            width: 312px;
+                            height: 30px;
+                            background: #F5F2EA;
+                            border: 2px solid #393B3D;
+                            border-radius: 10px;
+                            text-indent: 20px;
+                        }::placeholder{
+                            font-size: 14px;
+                        }
+                    }
+                    .footerM-btn{ 
+                        align-self: center;
+                        cursor: pointer;
+                        display: flex;
+                        padding: 16px 16px 16px 24px;
+                        width: 320px;
+                        align-items: center;
+                        justify-content: space-between;
+                        height: 55px;
+                        background: #F5F2EA;
+                        border: 2px solid #393B3D;
+                        border-radius: 10px;
+                        margin: 10px 0 0;
+                        img{
+                            width: 23px;
+                            height: 23px;
+                        }
+                        span{
+                            font-family: 'ArchivoBold';
+                            font-size: 18px;
+                            color: #393B3D;
+                        }
+                        
+                    }
+                    .footerM-btn-disabled{
+                        align-self: center;
+                        cursor: pointer;
+                        display: flex;
+                        padding: 16px 16px 16px 24px;
+                        width: 320px;
+                        align-items: center;
+                        justify-content: space-between;
+                        height: 55px;
+                        background: #F5F2EA;
+                        border: 2px solid #6d6e6e;
+                        border-radius: 10px;
+                        margin: 10px 0 0;
+                        img{
+                            width: 23px;
+                            height: 23px;
+                            filter: contrast(0.5);
+                        }
+                        span{
+                            font-family: 'ArchivoBold';
+                            font-size: 18px;
+                            color: #87898a;
+                        }
+                    }
+                    .form-wrapper{
+                        display: flex;
+                        align-self: center;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        justify-content: center;
+                        .brand-footer-form{
+                            margin: 25% 0;
+                            height: 480px;
+                            .input-fields{
+                                width: 340px;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                .close-btn{
+                                    margin-bottom: 10px;
+                                }
+                                .input-title{
+                                    h3{
+                                        display: none;
+                                    }
+                                }
+                                .brandInput{
+                                    width: 300px;
+                                    label{
+                                        align-self: flex-start;
+                                        font-size: 12px;
+                                    }
+                                    input{
+                                        width: 290px;
+                                        height: 29px;
+                                    }
+
+                                }
+                                .footerM-btn{
+                                    width: 300px;
+                                    height: 44px;
+                                }
+                                .footerM-btn-disabled{
+                                    width: 300px;
+                                    height: 44px;
+                                }
+                            }
+                        }
+                    }
+                }   
+            }
+        }
+    }
+}

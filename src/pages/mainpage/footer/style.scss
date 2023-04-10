@@ -1,0 +1,569 @@
+.mainpage-footer{
+    background: url("../../../assets/images/footer-img/footerBG.png") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    flex-direction: column;
+    .footer-mobile{
+        display: none;
+    }
+    .calendly{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            font-family: "AndersonGroteskBlack";
+            text-shadow:
+                    -2px -2px #393B3D,
+                    0  -2px#393B3D,
+                    2px -2px #393B3D,
+                    2px  0 #393B3D,
+                    2px  2px #393B3D,
+                    0  2px #393B3D,
+                    -2px  2px #393B3D,
+                    -2px  0  #393B3D,
+                    -4px  4px  #393B3D;
+            color: #F5F2EA;
+            letter-spacing: 2px;
+            font-size: 34px;
+            text-align: center;
+            margin: 0;
+        }
+        p{
+            font-family: "AndersonGroteskBlack";
+            color: #393B3D;
+        }
+        
+        .calendly-inline-widget{
+            display: flex;
+            flex-direction: column;
+            margin: 20px 0 ;
+            justify-content: center;
+            align-items: center;
+        }   
+    }
+    .web-title{
+        font-family: "AndersonGroteskBlack";
+        text-shadow:
+                    -2px -2px #393B3D,
+                    0  -2px#393B3D,
+                    2px -2px #393B3D,
+                    2px  0 #393B3D,
+                    2px  2px #393B3D,
+                    0  2px #393B3D,
+                    -2px  2px #393B3D,
+                    -2px  0  #393B3D,
+                    -4px  4px  #393B3D;
+        color: #F5F2EA;
+        letter-spacing: 2px;
+        font-size: 34px;
+        text-align: center;
+    }
+    .mainpage_footer-container{
+        margin: 10px 0;
+        padding: 5px 0;
+        display: flex;
+        flex-direction: column;
+        width: 1040px;
+        height: 720px;
+        align-items: center;
+        justify-content: space-between;
+        .footer-cards{
+            width: 500px;
+            height: 540px;
+            margin-bottom: 10px;
+        }
+        .footer-content{
+            display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+            div{
+                display: flex;
+                align-items: center;
+                .input-block{
+                    width: 415px;
+                    height: 410px;
+                    background-color: #F5F2EA;
+                    border-radius: 16px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    border: 2px solid #393B3D;
+                    box-shadow: -2px 2px 0px #393B3D;
+                    text-align: center;
+                    span{
+                        margin:10px 0 0 35px;
+                        font-family: "AndersonGrotesk";
+                        align-self: flex-start;
+                        b{
+                            color: #FF6F69;
+                        }
+                    }
+                    .lower-text{
+                        font-family: "AndersonGrotesk";
+                        color: #5D9040;
+                        text-shadow:
+                            -1px -1px #393B3D,
+                            0  -1px#393B3D,
+                            1px -1px #393B3D,
+                            1px  0 #393B3D,
+                            1px  1px #393B3D,
+                            0  1px #393B3D,
+                            -1px  1px #393B3D,
+                            -1px  0  #393B3D,
+                            -2px  2px  #393B3D;
+                    }
+                    .mailForm{
+                        display: flex;
+                        height: 250px;
+                        position: relative;
+                        .mailchimpForm{
+                            display: flex;
+                            flex-direction: column;
+                            height: 250px;
+                            
+                            .asd{
+                                width: 25px;
+                                height: 25px;
+                                position: absolute;
+                                right: 15px;
+                                bottom: 38px;
+                            }
+                            .MailChimp-style{
+                               display: flex;
+                               flex-direction: column;
+                               justify-content: center;
+                               .msg-alert{
+                                margin: 0px 0 0px;
+                                height: 30px;
+                                align-self: end;
+                                p{
+                                    margin: 0px ; 
+                                    font-size: 12px;
+                                }
+                               }
+                                input{
+                                    text-indent: 20px;
+                                    margin: 7px 0;
+                                    width: 330px;
+                                    height: 35px;
+                                    border-radius: 10px;
+                                    border: 2px solid #393B3D;
+                                    font-family: "AndersonGrotesk";
+                                }          
+                                button{
+                                    cursor: pointer;
+                                    display: flex;
+                                    padding: 16px;
+                                    width: 340px;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    height: 55px;
+                                    background: #F5F2EA;
+                                    border: 2px solid #393B3D;
+                                    border-radius: 10px;
+                                    font-family: 'ArchivoBold';
+                                    font-size: 14px;
+                                    color: #393B3D;
+                                    margin: 7px 0;
+                                }
+                                button:hover{
+                                    box-shadow: -2px 2px 0px #393B3D;
+                                    transition: .1s;
+                                }  
+                            }
+                        }
+                        
+                    }
+                    .input-title{
+                        font-family: "AndersonGroteskBlack";
+                            text-shadow:
+                                -2px -2px #393B3D,
+                                0  -2px#393B3D,
+                                2px -2px #393B3D,
+                                2px  0 #393B3D,
+                                2px  2px #393B3D,
+                                0  2px #393B3D,
+                                -2px  2px #393B3D,
+                                -2px  0  #393B3D,
+                                -4px  4px  #393B3D;
+                            color: #FFCC4D;
+                            letter-spacing: 1px;
+                            font-size: 28px;
+                            width: 355px;
+                            margin: 0;
+                    }
+                }
+            }
+        }
+        .checkpoints{
+            display: flex;
+                align-self: center;
+                justify-content: space-evenly;
+                width: 100%;
+                div{
+                    display: flex;
+                    align-items: center;
+                    img{
+                        margin: 10px;
+                    }
+                    
+                    label{
+                        font-size: 18px;
+                        font-family: "AndersonGroteskBlack";
+                        color: #393B3D;
+                    }
+                }
+        }
+    }
+}
+
+@media (max-width: 430px) {
+    .mainpage-footer{
+        background: url("../../../assets/images/footer-img/mobileBG.png") no-repeat inherit;
+        background-size: cover;
+        width: 100%;
+        height: 710px;
+        .mainpage_footer-container{
+            display: none;
+        }
+        .web-title{
+            display: none;
+        }
+        .calendly{
+            display: none;
+        }
+        .footer-mobile{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img{
+                width: 280px;
+            }
+            h1{
+                width: 340px;
+                font-family: "AndersonGroteskBlack";
+                font-size: 24px;
+                text-shadow:
+                    -2px -2px #393B3D,
+                    0  -2px#393B3D,
+                    2px -2px #393B3D,
+                    2px  0 #393B3D,
+                    2px  2px #393B3D,
+                    0  2px #393B3D,
+                    -2px  2px #393B3D,
+                    -2px  0  #393B3D,
+                    -4px  4px  #393B3D;
+                    color: #F5F2EA;
+                letter-spacing: 2px;
+            }
+            p{
+                width: 340px;
+                font-size: 12px;
+                color: #393B3D;
+                font-family: "AndersonGroteskBlack";
+            }
+
+            button{
+                align-self: center;
+                cursor: pointer;
+                display: flex;
+                padding: 16px 16px 16px 24px;
+                width: 320px;
+                align-items: center;
+                justify-content: space-between;
+                height: 55px;
+                background: #F5F2EA;
+                border: 2px solid #393B3D;
+                border-radius: 10px;
+                margin: 10px 0 0;
+                img{
+                    width: 23px;
+                    height: 23px;
+                }
+                span{
+                    font-family: 'ArchivoBold';
+                    font-size: 18px;
+                    color: #393B3D;
+                }
+            }
+            .popUp-wrapper{
+                display: flex;
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                opacity: 1.3;
+                flex-direction: column;
+                align-items: center;
+                background-color: rgba(0,0,0,0.75);
+                z-index: 99;
+                .popUp-container{
+                    width: 340px;
+                    background-size: cover;
+                    margin: 15vh 0 0;
+                    align-self: center;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-between;
+                    border: 2px solid #393B3D;
+                    border-radius: 16px;   
+                    background: url("../../../assets/images/body-img/popupBG.png")center no-repeat;
+                    .btn-close{
+                        width: 30px;
+                        height: 30px;
+                        align-self: flex-end;
+                        cursor: pointer;
+                        margin: 10px;
+                        img{
+                            width: 30px;
+                            height: 30px;
+                        }
+                    }
+                    .mob-calendly{
+                        height: auto;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        margin: 0px 0px 10px;
+                        h1{
+                            margin: 0;
+                        }
+                    }
+                    .input-block{
+                        width: 310px;
+                        height: 370px;
+                        background-color: #F5F2EA;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        border: 2px solid #393B3D;
+                        border-radius: 16px;
+                        box-shadow: -2px 2px 0px #393B3D;
+                        margin: 0px 0px 20px;
+                        .input-title{
+                            width: 310px;
+                            font-family: "AndersonGroteskBlack";
+                            text-shadow:
+                                -2px -2px #393B3D,
+                                0  -2px#393B3D,
+                                2px -2px #393B3D,
+                                2px  0 #393B3D,
+                                2px  2px #393B3D,
+                                0  2px #393B3D,
+                                -2px  2px #393B3D,
+                                -2px  0  #393B3D,
+                                -4px  4px  #393B3D;
+                            color: #FFCC4D;
+                            letter-spacing: 1px;
+                            font-size: 24px;
+                            margin: 0px 0 0;
+                        } 
+                        .input-require{
+                            display: flex;
+                            color: #393B3D;
+                            font-family: "AndersonGrotesk";
+                            margin: 0px 0px 0px 20px;
+                            b{
+                                color: #FF6F69;
+                            }
+                        }
+                        .lower-text{
+                            font-family: "AndersonGrotesk";
+                            color: #5D9040;
+                            text-shadow:
+                                -1px -1px #393B3D,
+                                0  -1px#393B3D,
+                                1px -1px #393B3D,
+                                1px  0 #393B3D,
+                                1px  1px #393B3D,
+                                0  1px #393B3D,
+                                -1px  1px #393B3D,
+                                -1px  0  #393B3D,
+                                -2px  2px  #393B3D;
+                            b{
+                                color: #FF6F69;
+                            }
+                        }
+                        .mailForm{
+                            display: flex;
+                            height: 250px;
+                            position: relative;
+                            .mailchimpForm{
+                                display: flex;
+                                flex-direction: column;
+                                height: 250px;
+                                form{
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    width: 300px;
+                                    input{
+                                        text-indent: 20px;
+                                        margin: 7px 0;
+                                        width: 260px;
+                                        height: 29px;
+                                        border-radius: 10px;
+                                        border: 2px solid #393B3D;
+                                        font-family: "AndersonGrotesk";
+                                    }
+                                    button{
+                                        width: 270px;
+                                        height: 45px;
+                                        cursor: pointer;
+                                        display: flex;
+                                        padding: 16px;
+                                        align-items: center;
+                                        justify-content: space-between;
+                                        background: #F5F2EA;
+                                        border: 2px solid #393B3D;
+                                        border-radius: 10px;
+                                        font-family: 'ArchivoBold';
+                                        font-size: 14px;
+                                        color: #393B3D;
+                                        margin: 7px 0;
+                                    }
+                                }
+                                .asd{
+                                    align-self: flex-end;
+                                    width: 25px;
+                                    height: 25px;
+                                    position: absolute;
+                                    margin: 0;
+                                    bottom: 50px;
+                                    right: 35px;
+                                }
+                                span{
+                                    margin:10px 0 0 35px;
+                                    font-family: "AndersonGrotesk";
+                                    align-self: flex-start;
+                                    b{
+                                        color: #FF6F69;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }    
+}
+
+/*
+
+    old web inputs (without mailchimp)
+    .footer-content{
+            display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+            div{
+                display: flex;
+                align-items: center;
+                .input-block{
+                    width: 415px;
+                    height: 410px;
+                    background-color: #F5F2EA;
+                    border-radius: 16px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    border: 2px solid #393B3D;
+                    box-shadow: -2px 2px 0px #393B3D;
+                    text-align: center;
+                    .input-fields{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        text-align: left;
+                        .input-err{
+                            align-self: flex-end;
+                            font-size: 12px;
+                            color: #FF6F69;
+                        }
+                        label{
+                            align-self: flex-start;
+                            font-family: "AndersonGrotesk";
+                            b{
+                                font-family: 'Courier New', Courier, monospace;
+                                color: red;
+                            }
+                        }
+                        .lower-sign{
+                            padding: 10px 0;
+                            align-self: flex-start;
+                            color: #5D9040;
+                            -webkit-text-stroke: 0.4px #393B3D;
+                            text-shadow: -1px 1px 0px #393B3D;
+                            font-family: "AndersonGrotesk";
+                            b{
+                                font-family: "AndersonGrotesk";
+                                color: #FF6F69;
+                                -webkit-text-stroke: 0.4px #393B3D;
+                                text-shadow: -1px 1px 0px #393B3D;
+                            }
+                        }
+                        input{
+                            text-indent: 20px;
+                            margin: 7px 0;
+                            width: 325px;
+                            height: 35px;
+                            border-radius: 10px;
+                            border: 2px solid #393B3D;
+                        }
+                        input::placeholder{
+                            font-family: "AndersonGrotesk";
+    
+                        }                       
+                        .popUpBtn{
+                            cursor: pointer;
+                            display: flex;
+                            padding: 16px 16px 16px 24px;
+                            width: 335px;
+                            align-items: center;
+                            justify-content: space-between;
+                            height: 55px;
+                            background: #F5F2EA;
+                            border: 2px solid #393B3D;
+                            border-radius: 10px;
+                            margin: 7px 0;
+                            img{
+                                width: 23px;
+                                height: 23px;
+                            }
+                            .popUp-title{
+                                font-family: 'ArchivoBold';
+                                font-size: 18px;
+                                color: #393B3D;
+                            }
+                            
+                        }
+                    }
+                    .input-title{
+                        font-family: "AndersonGroteskBlack";
+                            text-shadow:
+                                -2px -2px #393B3D,
+                                0  -2px#393B3D,
+                                2px -2px #393B3D,
+                                2px  0 #393B3D,
+                                2px  2px #393B3D,
+                                0  2px #393B3D,
+                                -2px  2px #393B3D,
+                                -2px  0  #393B3D,
+                                -4px  4px  #393B3D;
+                            color: #FFCC4D;
+                            letter-spacing: 1px;
+                            font-size: 28px;
+                            width: 355px;
+                            margin: 0;
+                    }
+                }
+            }
+        }
+*/

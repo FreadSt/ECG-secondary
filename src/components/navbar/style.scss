@@ -1,0 +1,152 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 25px 0px 0px 0px;
+    top: 0;
+    align-self: center;
+    width: 1040px;
+    z-index: 9999;
+    .ouch{
+        position: relative;
+        display: flex;
+        justify-content: center;   
+        flex-direction: column;    
+        margin: 0px 0px 10px 0px ; 
+        p{
+            width: 50px;
+            font-size: 8px;
+            font-family: "AndersonGroteskBlack";
+            z-index: 99;
+            padding: 0px 0px 30px 20px;
+        }
+        .alert-img{
+            margin: 0px 0px 1% 10px;
+            padding: 0px 0px 20px 0px;
+            width: 70px;
+            height: 55px;
+            left: 0;
+            right: 0;
+            bottom: -4px;
+            position: absolute;
+            
+        }
+        
+    }
+    .header-logo{
+        display: flex;
+        font-family: "ArchivoBlack";
+        font-size: 14px;
+        align-items: center;
+        cursor: pointer;
+        margin-left: 10px;
+        p{
+            width: 80px;
+            margin-left: 10px;
+            color: #F5F2EA;
+            text-align: left;
+        }
+        img{
+            width: 52px;
+            height: 52px;
+        }
+    }
+    .header-panel{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 800px;
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px 0px 10px 0px ;
+            height: 28px;
+            padding: 3px 8px;
+            font-family: "ArchivoBold";
+            font-size: 13px;
+            color: #F5F2EA;
+            text-decoration: none;
+            span{
+                align-self: center;
+            }
+            :hover{
+                text-decoration: underline 2px #FFCC4D;
+            }
+        }
+        :focus, .active{
+            background: #FFCC4D;
+            color: #393B3D;
+            box-shadow: -2px 2px 0px #393B3D;
+            border: 2px solid #393B3D;
+            border-radius: 5px;
+        }
+    }
+    .sidebar-block{
+        display: none;
+    }
+}
+
+
+.header-text{
+    display: flex!important;
+    flex: 1!important;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    align-self: center;
+    width: 1440px;
+    .main-text{
+        display: flex;
+        flex-direction: column;
+        width: 1040px;
+       
+    }
+    p{
+        align-self: center;
+        font-family: "AndersonGroteskUltraBold";
+        color: #F5F2EA;
+        width: 750px;
+        margin: 50px;
+    }
+    
+}
+.is-sticky {
+    position: fixed;
+    display: flex;
+    height: 70px;
+    max-width: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+    background: url('../../assets/images/body-img/Background.png')!important;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0;
+    justify-content: center;
+    .ouch{
+        display: none;
+    }
+    span{
+      color: black;
+    }
+    header{
+      width: 1040px;
+    }
+    .header-logo{
+      align-self: flex-start;
+      margin-right: 6.5%;
+      p{
+        color: black;
+      }
+    }
+    .header-panel{
+      width: 800px;
+      display: flex;
+      justify-content: space-between;
+    }
+}

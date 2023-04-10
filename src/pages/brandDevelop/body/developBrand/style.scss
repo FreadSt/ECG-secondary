@@ -1,0 +1,72 @@
+.devBrands-box{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    .devBrands-block{
+        margin: 4% 0;
+        width: 200px;
+        .web-branding{
+            p{
+                font-family: "AndersonGrotesk";
+                font-size: 14px;
+                color: #393b3d;
+            }
+            .debBrands-title{
+                img{
+                    width: 130px;
+                    height: 130px;
+                }
+                h3{
+                    font-family: "AndersonGroteskBlack";
+                    font-size: 18px;
+                    color: #393b3d;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+        .mob-branding{
+            display: none;
+        }
+        
+
+    }
+}
+
+@media(max-width:430px) {
+    .devBrands-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .devBrands-block{
+            margin: 4% 0;
+            width: 340px;
+            .web-branding{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                p{
+                    width: 275px;
+                    font-size: 12px;
+                    font-family: "AndersonGrotesk";
+                    color: #393b3d;
+                }
+                .debBrands-title{
+                    img{
+                        width: 130px;
+                        height: 130px;
+                    }
+                    h3{
+                        margin: 0;
+                        font-family: "AndersonGroteskBlack";
+                        font-size: 18px;
+                        color: #393b3d;
+                        letter-spacing: 1px;
+                    }
+                }            
+            }
+            .mob-branding{
+                
+            }
+        }
+    }
+}

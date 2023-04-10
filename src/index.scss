@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "ArchivoBold";
+  src: local("ArchivoBold"),
+    url("./assets/fonts/Archivo/Archivo-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "ArchivoBlack";
+  src: local("ArchivoBlack"),
+    url("./assets/fonts/Archivo/Archivo-Black.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "ArchivoBlack";
+  src: local("ArchivoBlack"),
+    url("./assets/fonts/Archivo/Archivo-Black.ttf") format("truetype");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "ArchivoRegular";
+  src: local("ArchivoRegular"),
+    url("./assets/fonts/Archivo/Archivo-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "ArchivoMedium";
+  src: local("ArchivoMedium"),
+    url("./assets/fonts/Archivo/Archivo-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Baloo";
+  src: local("Baloo"),
+    url("./assets/fonts/Baloo/BalooBhai-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Grandstander";
+  src: local("Grandstander"),
+    url("./assets/fonts/Grandstander/Grandstander-clean.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "ChickenHunter";
+  src: local("ChickenHunter"),
+    url("./assets/fonts/SweetChili/SweetChili.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AndersonGrotesk";
+  src: local("AndersonGrotesk"),
+    url("./assets/fonts/AndersonGrotesk/AndersonGrotesk.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "AndersonGroteskBold";
+  src: local("AndersonGrotesk"),
+    url("./assets/fonts/AndersonGrotesk/AndersonGrotesk-Bold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "AndersonGroteskUltraBold";
+  src: local("AndersonGrotesk"),
+    url("./assets/fonts/AndersonGrotesk/AndersonGrotesk-Ultrabold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "AndersonGroteskBlack";
+  src: local("AndersonGrotesk"),
+    url("./assets/fonts/AndersonGrotesk/AndersonGrotesk-Black.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "PaytoneOne";
+  src: local("PaytoneOne"),
+    url("./assets/fonts/PaytoneOne/PaytoneOne-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "DePixelBold";
+  src: local("DePixel"),
+    url("./assets/fonts/DePixel/depixelbreit.otf") format("truetype");
+}
+@font-face {
+  font-family: "SweetChili";
+  src: local("SweetChili"),
+    url("./assets/fonts/SweetChili/SweetChili.ttf") format("truetype");
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+

@@ -1,0 +1,89 @@
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    .card{
+        width: 240px;
+        height: 85px;
+        margin: 30px 0px;
+        img{
+          width: 40px;
+          height: 40px;  
+        }
+        display: flex;
+        .text-container{
+            margin:0px 15px;
+            text-align: left;
+            h3{
+                margin: 0;
+                font-size: 18px;
+                font-family: "AndersonGroteskUltraBold";
+                letter-spacing: 1px;
+            }
+            p{
+                margin: 10px 0px;
+                font-size: 14px;
+                font-family: "AndersonGrotesk";
+            }
+        }
+    }
+}
+
+@media (max-width: 430px) {
+    .cards-container{
+        display: flex;
+        flex-wrap: wrap;
+        height: 1000px;
+        justify-content: space-between;
+        .card{
+            margin: 15px 0;
+            width: 160px;
+            img{
+                width: 35px;
+                height: 35px;
+            }
+            .text-container{
+                margin: 0 10px;
+                h3{
+                 font-size: 14px;
+                 font-family: "AndersonGroteskUltraBold";
+
+                }
+                p{
+                    font-size: 12px;
+                    width: 120px;
+                }
+            }
+        }
+    } 
+}
+
+@media(max-width: 376px) {
+    .cards-container{
+        display: flex;
+        flex-wrap: wrap;
+        height: 900px;
+        justify-content: space-between;
+        .card{
+            margin: 15px 0;
+            width: 160px;
+            img{
+                width: 35px;
+                height: 35px;
+            }
+            .text-container{
+                margin: 0 10px;
+                h3{
+                 font-size: 14px;
+                 font-family: "AndersonGroteskUltraBold";
+
+                }
+                p{
+                    font-size: 12px;
+                    width: 120px;
+                }
+            }
+        }
+    } 
+}

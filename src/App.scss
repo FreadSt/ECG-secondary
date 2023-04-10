@@ -1,0 +1,122 @@
+.App{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  flex: 1;
+  .navbar{
+    align-self: center;
+    display: flex;
+    height: 70px;
+    position: sticky;
+    margin: 0px 0px -70px 0px;
+    z-index: 9999;
+    padding: 0px 30px;
+  }
+}
+
+.preloader{
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .rotate-img{
+    position: absolute;
+  }
+  .rotate-text{
+  }
+}
+
+.mobile-nav{
+  display: none;
+}
+@media(max-width:430px){
+  .App{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    .navbar{
+      display: none;
+    }
+    .mobile-nav{
+      display: flex;
+      position: absolute;
+      flex-direction: column;
+      z-index: 9999;
+      align-self: center;
+      align-items: center;
+      width: 100%;
+      max-width: 430px;
+    }
+  }
+  .is-sticky{
+    display: none;
+  }
+  .preloader{
+    margin-top: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .rotate-img{
+      position: absolute;
+      width: 200px;
+      height: 200px;
+    }
+    .rotate-text{
+      width: 250px;
+      height: 250px;
+    }
+  }
+}
+@media(max-width:375px){
+  .App{
+    max-width: 375px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    .navbar{
+      display: none;
+    }
+    .mobile-nav{
+      display: flex;
+      position: absolute;
+      flex-direction: column;
+      z-index: 9999;
+      align-self: center;
+      align-items: center;
+      width: 375px;
+    }
+  }
+  .is-sticky{
+    display: none;
+  }
+  .preloader{
+    margin-top: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .rotate-img{
+      position: absolute;
+      width: 200px;
+      height: 200px;
+    }
+    .rotate-text{
+      width: 250px;
+      height: 250px;
+    }
+  }
+}
+

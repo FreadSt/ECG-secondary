@@ -1,0 +1,368 @@
+.processes{
+    display: flex;
+    flex-direction: column;
+    width: 1040px;
+    justify-content: space-between;
+    .block-transition{
+        margin: 10px 0;
+        width: 1040px;
+        hr{
+            width: 1040px;
+        }
+    }
+    .first-process{
+        display: flex;
+        justify-content: space-between;
+        margin: 2% 0;
+        .process-name{
+            text-align: left;
+            h1{
+                margin: 0px;
+                text-shadow: -2px -2px 0px #393B3D, -4px 4px 0px #393B3D, 2px -2px 0px #393B3D, 2px 2px 0px #393B3D;
+                font-family: "AndersonGroteskBlack";
+                color: #FFCC4D;
+                font-size: 42px;
+                letter-spacing: 1px;
+                align-self: center;
+            }
+            p{
+                font-family: "AndersonGroteskBlack";
+                font-size: 18px;
+                color: #393B3D;
+            }
+        }
+        .process-points{
+            display: flex;
+            flex-wrap: wrap;
+            width: 690px;
+            height: 200px;
+            justify-content: space-between;
+            .process-block{
+                display: flex;
+                width: 325px;
+                height: 85px;
+                text-align: left;
+                align-items: center;
+                margin: 2% 0;
+                img{
+                    width: 40px;
+                    height: 40px;
+                    align-self: flex-start;
+                }
+                .process-des{
+                    margin-left: 10px;
+                    width: 275px;
+                    
+                    h3{
+                        font-family: "AndersonGroteskBlack";
+                        color: #393B3D;
+                        font-size: 18px;
+                    }
+                    p{
+                        font-size: 14px;
+                        font-family: "AndersonGrotesk";
+                        margin: 0;
+                        color: #393B3D;
+                    }
+                }
+            }
+        }
+    }
+
+    .second-process{
+        display: flex;
+        justify-content: space-between;
+        margin: 2% 0;
+        .process-name{
+            text-align: left;
+            h1{
+                margin: 0px;
+                text-shadow: -2px -2px 0px #393B3D, -4px 4px 0px #393B3D, 2px -2px 0px #393B3D, 2px 2px 0px #393B3D;
+                font-family: "AndersonGroteskBlack";
+                color: #FFCC4D;
+                font-size: 43px;
+                letter-spacing: 1px;
+                align-self: center;
+            }
+            p{
+                font-family: "AndersonGroteskBlack";
+                font-size: 18px;
+                color: #393B3D;
+            }
+        }
+        .process-points{
+            display: flex;
+            flex-wrap: wrap;
+            width: 690px;
+            height: 200px;
+            justify-content: space-between;
+            .process-block{
+                display: flex;
+                width: 325px;
+                height: 85px;
+                text-align: left;
+                align-items: center;
+                margin: 2% 0;
+                img{
+                    width: 40px;
+                    height: 40px;
+                    align-self: flex-start;
+                }
+                .process-des{
+                    margin-left: 10px;
+                    width: 275px;
+                    
+                    h3{
+                        font-family: "AndersonGroteskBlack";
+                        color: #393B3D;
+                        font-size: 18px;
+                    }
+                    p{
+                        font-size: 14px;
+                        font-family: "AndersonGrotesk";
+                        margin: 0;
+                        color: #393B3D;
+                    }
+                }
+            }
+        }
+    }
+
+    .third-process{
+        display: flex;
+        justify-content: space-between;
+        margin: 1% 0 2%;
+        .process-name{
+            text-align: left;
+            h1{
+                margin: 0px;
+                text-shadow: -2px -2px 0px #393B3D, -4px 4px 0px #393B3D, 2px -2px 0px #393B3D, 2px 2px 0px #393B3D;
+                font-family: "AndersonGroteskBlack";
+                color: #FFCC4D;
+                font-size: 42px;
+                letter-spacing: 1px;
+                align-self: center;
+            }
+            p{
+                font-family: "AndersonGroteskBlack";
+                font-size: 18px;
+                color: #393B3D;
+            }
+        }
+        .process-points{
+            display: flex;
+            flex-wrap: wrap;
+            width: 690px;
+            justify-content: space-between;
+            .process-block{
+                display: flex;
+                width: 325px;
+                text-align: left;
+                align-items: center;
+                margin: 1% 0 3%;
+                img{
+                    width: 40px;
+                    height: 40px;
+                    align-self: flex-start;
+                }
+                .process-des{
+                    margin-left: 10px;
+                    width: 275px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    h3{
+                        font-family: "AndersonGroteskBlack";
+                        color: #393B3D;
+                        font-size: 18px;
+                    }
+                    p{
+                        font-size: 14px;
+                        font-family: "AndersonGrotesk";
+                        margin: 0;
+                        color: #393B3D;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:430px) {
+    .processes{
+        display: flex;
+        width: 340px;
+
+        .first-process{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+            .process-name{
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                margin: 10px 0 0;
+                h1{
+                    margin: 0px;
+                    font-size: 26px;
+                    letter-spacing: 1px;
+                    align-self: center;
+                }
+                p{
+                    align-self: center;
+                    font-size: 12px;
+                    letter-spacing: 0.5px;
+                    margin: 10px 0 0;
+                }
+            }
+            .process-points{
+                display: flex;
+                flex-wrap: wrap;
+                width: 340px;
+                height: 300px;
+                align-items: center;
+                margin: 10px 0 0;
+                .process-block{
+                    width: 165px;
+                    align-items: baseline;
+                    .animate__zoomInLeft{
+                        align-self: start;
+                        margin: 0px 0 30px;
+                        img{
+                            margin: -10px 0 10px;
+                            width: 33px;
+                            height: 33px;
+                            align-self: flex-start;
+                        }
+                    }
+                    .process-des{
+                        h3{
+                            font-size: 14px;
+                            letter-spacing: 0.5px;
+                            margin: -10px 0px 10px;
+                        }
+                        p{
+                            font-size: 12px;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+        
+        .block-transition{
+            margin: 10px 0;
+            width: 340px;
+            hr{
+                width: 340px;
+            }
+        }
+
+        .second-process{
+            display: flex;
+            flex-direction: column;
+             .process-name{
+                text-align: center;
+                 display: flex;
+                 flex-direction: column;
+                 margin: 10px 0 0;
+                 h1{
+                     margin: 0px;
+                     font-size: 26px;
+                     letter-spacing: 1px;
+                     align-self: center;
+                 }
+                 p{
+                     align-self: center;
+                     font-size: 12px;
+                     letter-spacing: 0.5px;
+                     margin: 10px 0 0;
+                 }
+             }
+             .process-points{
+                display: flex;
+                flex-wrap: wrap;
+                width: 340px;
+                height: 300px;
+                align-items: center;
+                margin: 10px 0 0;
+                .process-block{
+                    width: 165px;
+                    align-items: baseline;
+                    .animate__zoomInLeft{
+                        align-self: start;
+                        margin: 0px 0 30px;
+                        img{
+                            margin: -10px 0 10px;
+                            width: 33px;
+                            height: 33px;
+                            align-self: flex-start;
+                        }
+                    }
+                    .process-des{
+                        h3{
+                            font-size: 14px;
+                            letter-spacing: 0.5px;
+                            margin: -10px 0px 10px;
+                        }
+                        p{
+                            font-size: 12px;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+         }
+    
+        .third-process{
+            display: flex;
+            flex-direction: column;
+            .process-name{
+                display: flex;
+                flex-direction: column;
+                margin: 10px 0 0;
+                text-align: center;
+                h1{
+                    margin: 0px;
+                    font-size: 26px;
+                    letter-spacing: 1px;
+                    align-self: center;
+                }
+                p{
+                    align-self: center;
+                    font-size: 12px;
+                    letter-spacing: 0.5px;
+                    margin: 10px 0 0;
+                }
+            }
+            .process-points{
+                display: flex;
+                flex-wrap: wrap;
+                width: 340px;
+                height: 320px;
+                align-items: baseline;
+                margin: 20px 0 0;
+                .process-block{
+                    width: 160px;
+                    align-items: center;
+                    img{
+                        width: 33px;
+                        height: 33px;
+                        align-self: flex-start;
+                    }
+                    .process-des{
+                        h3{
+                            font-size: 14px;
+                            letter-spacing: 0.5px;
+                            margin: 0px 0 10px ;
+                        }
+                        p{
+                            font-size: 12px;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

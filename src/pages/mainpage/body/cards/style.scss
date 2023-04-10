@@ -1,0 +1,100 @@
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-self: center;
+    width: 1040px;
+    .cards{
+        a{
+            display: flex;
+            width: 320px;
+            height: 145px;
+            border: 2px solid black;
+            border-radius: 10px;
+            align-items: flex-start;
+            margin: 15px 0;
+            text-decoration: none;
+            background: #F5F2EA;
+            .card-text{
+                display: flex;
+                align-items: baseline;
+                img{
+                    align-self: flex-start;
+                    margin: 20px 10px 0px 20px;
+                }
+                .smile{
+                    width: 36px;
+                    height: 36px;
+                }
+                p{
+                    text-align: left;
+                    width: 210px;
+                    height: 80px;
+                    margin: 15px 0px 0px 0px ;
+                    text-decoration: none;
+                }
+            }
+            .arrow{
+                width: 23px;
+                height: 23px;
+                align-self: flex-end;
+                margin: 0px 0px 15px 5px ;
+                padding: 0px 0px 0px 0px;
+            }
+        }
+        .active{
+            background: #FFCC4D;
+            color: #393B3D;
+            box-shadow: -2px 2px 0px #393B3D;
+            border: 2px solid #393B3D;
+            border-radius: 5px;
+        }
+    }
+}
+
+@media (max-width: 430px) {
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-self: center;
+        width: 340px;
+        .cards{
+            a{
+                margin: 10px 0;
+                height: 75px;
+                width: 335px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .card-text{
+                    display: flex;
+                    align-self: center;
+                    align-items: center;
+                    img{
+                        margin: 10px;
+                        width: 24px;
+                        height: 24px;
+                    }
+                    .smile{
+                        margin: 10px;
+                    }
+                    p{
+                        margin: 0;
+                        font-size: 14px;
+                        width: 210px;
+                        height: 36px;
+                    }
+                }
+                .arrow{
+                    align-self: center;
+                    width: 23px;
+                    height: 23px;
+                    margin: 0 20px;
+                }
+            }
+        }    
+    } 
+}
+

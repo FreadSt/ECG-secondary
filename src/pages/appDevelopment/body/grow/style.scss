@@ -1,0 +1,235 @@
+.grow-box{
+    display: flex;
+    margin: 20px 0;
+    width: 1040px;/* 1040px*/
+    align-self: center;
+    justify-content: space-between;
+    align-items: center;
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 430px;
+        .button-container{
+            margin: 5px 0;
+            padding: 0px;
+            width: 200px;
+            cursor: pointer;
+            border: none;
+            background-color: transparent;
+            .grow-button{
+                padding: 20px;
+                width: 200px;
+                cursor: pointer;
+                border: none;
+                background-color: transparent;
+                p{
+                    color: #616263;
+                    text-align: left;
+                    font-size: 18px;
+                    margin: 0;
+                    font-family: "AndersonGroteskBlack";
+                }
+            }
+            :hover{
+                text-decoration: underline 2px #FFCC4D;
+                color: #232324;
+            }
+            :focus, .active{
+                p{
+                    color: #616263;
+                    text-align: left;
+                    font-size: 18px;
+                    margin: 0;
+                    font-family: "AndersonGroteskBlack";
+                    color: #232324;
+                }
+                width: 200px;
+                background: #FFCC4D;
+                box-shadow: -2px 2px 0px #393B3D;
+                border: 2px solid #393B3D;
+                border-radius: 10px;
+                padding: 20px;
+                align-self: flex-start;
+            
+            }
+           
+
+        }
+    }
+    
+    .card-main{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding: 40px 80px;        
+        width: 600px;
+        height: 300px;
+        background-color: #F5F2EA;
+        border-radius: 20px;
+        border: 3px solid #393B3D;
+        box-shadow: 25px 25px 0 -3px #F5F2EA, 25px 25px #393B3D,
+                50px 50px 0 -3px #F5F2EA, 50px 50px #393B3D;
+        transition: box-shadow 1s, top 1s, left 1s;
+        position: relative;
+        top: -20px;
+        left: -50px;
+        span{
+            color: #F5F2EA;
+            font-size: 28px;
+            text-shadow:
+                -2px -2px #393B3D,
+                0  -2px#393B3D,
+                2px -2px #393B3D,
+                2px  0 #393B3D,
+                2px  2px #393B3D,
+                0  2px #393B3D,
+                -2px  2px #393B3D,
+                -2px  0  #393B3D,
+                -4px  4px  #393B3D;    
+            font-family: "AndersonGroteskBlack";
+        }
+        p{
+            font-size: 20px;
+            color: #393B3D;
+            font-family: "AndersonGroteskBlack";
+            line-height: 25px;
+        }
+    }
+    .mob-cards{
+        display: none;
+    } 
+
+    .card{
+        text-align: left;
+        width: 560px;
+        height: 380px;
+        font-size: 28px;
+        border: 2px solid #393B3D;
+        box-shadow: 2px 2px 0px #393B3D;
+        border-radius: 20px;
+        padding: 40px 80px;
+        span{
+            margin: 0 0 10px;
+            letter-spacing: 2px;
+            font-size: 28px;
+            font-family: "AndersonGroteskBlack";
+            color: #F5F2EA;
+            text-shadow:
+                -2px -2px #393B3D,
+                0  -2px#393B3D,
+                2px -2px #393B3D,
+                2px  0 #393B3D,
+                2px  2px #393B3D,
+                0  2px #393B3D,
+                -2px  2px #393B3D,
+                -2px  0  #393B3D,
+                -4px  4px  #393B3D;                  
+        }
+        p{
+            font-size: 20px;
+            color: #393B3D;
+            font-family: "AndersonGroteskBlack";
+            line-height: 25px;
+        }
+    }   
+    .mob_btn-box{
+        display: none;
+    }
+}
+
+@media(max-width:430px){
+    .grow-box{
+        display: flex;
+        width: 340px;
+        flex-direction: column;
+        .buttons{
+            display: none;
+        }
+        .card-main{
+            display: none;
+        }
+        .mob-cards{
+            display: flex;
+            box-shadow: 0;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            padding: 20px 30px 40px 30px;            
+            width: 275px;
+            background-color: #F5F2EA;
+            border-radius: 20px;
+            border: 3px solid #393B3D;
+            box-shadow: 0;
+            transition: box-shadow 1s, top 1s, left 1s;
+            position: relative;
+            span{
+                font-size: 22px;
+                color: #F5F2EA;
+                text-shadow:
+                    -2px -2px #393B3D,
+                    0  -2px#393B3D,
+                    2px -2px #393B3D,
+                    2px  0 #393B3D,
+                    2px  2px #393B3D,
+                    0  2px #393B3D,
+                    -2px  2px #393B3D,
+                    -2px  0  #393B3D,
+                    -4px  4px  #393B3D;
+                    font-family: "AndersonGroteskBlack";
+            }
+            p{
+                font-size: 12px;
+                letter-spacing: 1px;
+                color: #393B3D;
+                font-family: "AndersonGroteskBlack";
+            }
+        }
+        .mob_btn-box{
+            display: flex;
+            justify-content: space-between;
+            width: 340px;
+            margin: 20px 0;
+            text-decoration: none;
+            .mob-button, .active{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 0;
+                width: 40px;
+                height: 40px;
+                border-radius: 20px;
+                border: 2px solid #393B3D;
+                box-shadow: -2px 2px 0px #393B3D;
+                cursor: pointer;
+                background-color: transparent;
+                p{
+                    align-self: center;
+                    color: #616263;
+                    text-align: left;
+                    font-size: 18px;
+                    margin: 0;
+                    font-family: "AndersonGroteskUltraBold";
+                }
+            }
+            :hover, .active{
+                p{
+                    color: #232324;
+                }
+                background: #FFCC4D;
+                border-radius:20px ;
+                text-decoration: none;
+            }
+            :focus{
+                p{
+                    color: #232324;
+                }
+                background: #FFCC4D;
+                box-shadow: -2px 2px 0px #393B3D;
+                border: 2px solid #393B3D;
+                border-radius: 20px;
+            }
+        }   
+        
+    }
+}
